@@ -1,12 +1,10 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
+/**
+ * Laravel - A PHP Framework For Web Artisans
  *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * @package  Laravel
+ * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
 /*
@@ -49,9 +47,12 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 |
 */
 
-$kernel = $app->make('Illuminate\Contracts\Http\Kernel');
-$request = Illuminate\Http\Request::capture();
-$response = $kernel->handle($request);
+$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
+
+$response = $kernel->handle(
+    $request = Illuminate\Http\Request::capture()
+);
 
 $response->send();
+
 $kernel->terminate($request, $response);

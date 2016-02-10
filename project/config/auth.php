@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 return [
 
     /*
@@ -37,7 +28,7 @@ return [
     |
     */
 
-    'model' => 'GrahamCampbell\BootstrapCMS\Models\User',
+    'model' => App\User::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -68,8 +59,8 @@ return [
     */
 
     'password' => [
-        'email'  => 'emails.password',
-        'table'  => 'password_resets',
+        'email' => 'emails.password',
+        'table' => 'password_resets',
         'expire' => 60,
     ],
 

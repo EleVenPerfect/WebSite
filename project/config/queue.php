@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 return [
 
     /*
@@ -46,8 +37,8 @@ return [
 
         'database' => [
             'driver' => 'database',
-            'table'  => 'jobs',
-            'queue'  => 'default',
+            'table' => 'jobs',
+            'queue' => 'default',
             'expire' => 60,
         ],
 
@@ -76,10 +67,10 @@ return [
         ],
 
         'redis' => [
-            'driver'     => 'redis',
+            'driver' => 'redis',
             'connection' => 'default',
-            'queue'      => 'default',
-            'expire'     => 60,
+            'queue'  => 'default',
+            'expire' => 60,
         ],
 
     ],

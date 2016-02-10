@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 return [
 
     /*
@@ -46,6 +37,7 @@ return [
     | Of course, examples of configuring each database platform that is
     | supported by Laravel is shown below to make development simple.
     |
+    |
     | All database work in Laravel is done through the PHP PDO facilities
     | so make sure you have the driver for your particular database of
     | choice installed on your machine before you begin development.
@@ -56,7 +48,7 @@ return [
 
         'sqlite' => [
             'driver'   => 'sqlite',
-            'database' => env('DB_HOST', storage_path('database.sqlite')),
+            'database' => storage_path('database.sqlite'),
             'prefix'   => '',
         ],
 

@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 return [
 
     /*
@@ -50,6 +41,7 @@ return [
     'in'                   => 'The selected :attribute is invalid.',
     'integer'              => 'The :attribute must be an integer.',
     'ip'                   => 'The :attribute must be a valid IP address.',
+    'json'                 => 'The :attribute must be a valid JSON string.',
     'max'                  => [
         'numeric' => 'The :attribute may not be greater than :max.',
         'file'    => 'The :attribute may not be greater than :max kilobytes.',

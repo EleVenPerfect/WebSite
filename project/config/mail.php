@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 return [
 
     /*
@@ -63,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => env('MAIL_FROM_ADDRESS', null), 'name' => env('MAIL_FROM_NAME', null)],
+    'from' => ['address' => null, 'name' => null],
 
     /*
     |--------------------------------------------------------------------------

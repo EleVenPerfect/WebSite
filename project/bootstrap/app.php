@@ -1,15 +1,6 @@
 <?php
 
 /*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-/*
 |--------------------------------------------------------------------------
 | Create The Application
 |--------------------------------------------------------------------------
@@ -20,7 +11,9 @@
 |
 */
 
-$app = new Illuminate\Foundation\Application(realpath(__DIR__.'/../'));
+$app = new Illuminate\Foundation\Application(
+    realpath(__DIR__.'/../')
+);
 
 /*
 |--------------------------------------------------------------------------
@@ -33,11 +26,20 @@ $app = new Illuminate\Foundation\Application(realpath(__DIR__.'/../'));
 |
 */
 
-$app->singleton('Illuminate\Contracts\Http\Kernel', 'GrahamCampbell\BootstrapCMS\Http\Kernel');
+$app->singleton(
+    Illuminate\Contracts\Http\Kernel::class,
+    App\Http\Kernel::class
+);
 
-$app->singleton('Illuminate\Contracts\Console\Kernel', 'GrahamCampbell\BootstrapCMS\Console\Kernel');
+$app->singleton(
+    Illuminate\Contracts\Console\Kernel::class,
+    App\Console\Kernel::class
+);
 
-$app->singleton('Illuminate\Contracts\Debug\ExceptionHandler', 'GrahamCampbell\Exceptions\ExceptionHandler');
+$app->singleton(
+    Illuminate\Contracts\Debug\ExceptionHandler::class,
+    App\Exceptions\Handler::class
+);
 
 /*
 |--------------------------------------------------------------------------

@@ -1,24 +1,10 @@
 <?php
 
-/*
- * This file is part of Bootstrap CMS.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
+namespace App\Providers;
 
-namespace GrahamCampbell\BootstrapCMS\Providers;
-
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
-/**
- * This is the route service provider class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class RouteServiceProvider extends ServiceProvider
 {
     /**
@@ -28,27 +14,25 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'GrahamCampbell\BootstrapCMS\Http\Controllers';
+    protected $namespace = 'App\Http\Controllers';
 
     /**
-     * Define the route model bindings, pattern filters, etc.
+     * Define your route model bindings, pattern filters, etc.
      *
-     * @param \Illuminate\Routing\Router $router
-     *
+     * @param  \Illuminate\Routing\Router  $router
      * @return void
      */
     public function boot(Router $router)
     {
-        parent::boot($router);
+        //
 
-        require app_path('Http/filters.php');
+        parent::boot($router);
     }
 
     /**
      * Define the routes for the application.
      *
-     * @param \Illuminate\Routing\Router $router
-     *
+     * @param  \Illuminate\Routing\Router  $router
      * @return void
      */
     public function map(Router $router)
