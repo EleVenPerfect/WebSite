@@ -21,6 +21,7 @@ class Atime extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('welcome_message');
-		echo "hellow word!";
+		$this->output->enable_profiler(TRUE);
+		$this->load->view('atime/index');
 	}
 }
