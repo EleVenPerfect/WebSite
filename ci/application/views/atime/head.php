@@ -8,6 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <meta charset="utf-8">
 <meta name = "format-detection" content = "telephone=no" />
 <link rel="stylesheet" href="<?php echo base_url()?>css/style.css">
+
 <script src="<?php echo base_url()?>js/jquery.js"></script>
 <script src="<?php echo base_url()?>js/jquery-migrate-1.1.1.js"></script>
 <script src="<?php echo base_url()?>js/jquery.easing.1.3.js"></script>

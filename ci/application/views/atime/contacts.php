@@ -6,7 +6,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 
-<title>Home</title>
+<title>Contacts</title>
+<link rel="stylesheet" href="<?php echo base_url()?>css/contact-form.css">
 
 <?php $this->load->view('atime/head.php') ?>
 
@@ -14,26 +15,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <div class="container">
     <div class="row">
-      <div class="grid_12">
+      <!-- <div class="grid_12">
         <h2>Contacts</h2>
         <div class="map">
           <figure class="">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
           </figure>
         </div>
-      </div>
+      </div> -->
       <div class="grid_5">
         <h2>Contact Info</h2>
-        <div class="text1 tx__1">Lorem ipsum dolor sit amet, consecteturpiscinger elit um dolor sit amet, consecteturpiscing. 
-</div>
-        <p>All <a href="http://www.templatemonster.com/ " rel="nofollow" class="color1"><strong>premium website themes</strong></a> go with 24/7 support.</p>
-        <p>If you have any questions regarding customization of <a href="http://blog.templatemonster.com/free-website-templates/" rel="nofollow" class="color1"><strong>freebies</strong></a>, ask guys from <a href="http://www.templatetuning.com/" rel="nofollow" class="color1"><strong>TemplateTuning</strong></a> to help you.</p>
-        The Company Name Inc. <br>
-        9870 St Vincent Place,<br>
-        Glasgow, DC 45 Fr 45.<br>
-        Telephone: +1 800 603 6035<br>
-        FAX: +1 800 889 9898<br>
-        E-mail: <a href="#">mail@demolink.org</a>
+        <div class="text1 tx__1">
+        231321312
+        </div>
       </div>
       <div class="grid_6 preffix_1">
         <h2>Contact  Form</h2>

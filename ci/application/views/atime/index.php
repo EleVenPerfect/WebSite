@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 
-<title>Home</title>
+<title>ATIME，专注创造奇迹！</title>
 
 <?php $this->load->view('atime/head.php') ?>
 

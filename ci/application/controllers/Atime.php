@@ -82,6 +82,16 @@ class Atime extends CI_Controller {
 	{
 		//$this->load->view('welcome_message');
 		$this->load->model('home_model','home');
+	
+
+		$this->load->library('email');
+
+		$this->email->from('elevenperfect@126.com', 'ATIME');
+		$this->email->to('elevenperfect@126.com');
+		$this->email->subject('Email Test');
+		$this->email->message('Testing the email class.');
+
+		$this->email->send();
 
 		$data =array(
 			'home'    => $this->home->read_home(),
