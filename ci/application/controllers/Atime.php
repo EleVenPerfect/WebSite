@@ -83,7 +83,7 @@ class Atime extends CI_Controller {
 		//$this->load->view('welcome_message');
 		$this->load->model('home_model','home');
 		$this->load->library('email');
-		$this->load->helper('captcha');
+		
 
 		// $this->email->from('elevenperfect@126.com');
 		// $this->email->to('elevenperfect@126.com');
@@ -95,36 +95,7 @@ class Atime extends CI_Controller {
 
 
 
-$speed = 'sfljlwjqrljlfafasdfasldfj1231443534507698';
-$word = '';
-for($i = 0; $i < 4; $i++){
-	$word .= $speed[mt_rand(0, strlen($speed) - 1)];
-	}
 
-$vals = array(
-    'word'      => $word,
-    'img_path'  => './captcha/',
-    'img_url'   => base_url().'captcha/',
-    'font_path' => base_url().'fonts/fontawesome-webfont.ttf',
-    'img_width' => '80',
-    'img_height'    => 30,
-    'expiration'    => 4,
-    'word_length'   => 4,
-    'font_size' => 100,
-    'img_id'    => 'captchaid',
-    'pool'      => '25dsfdeweiip6575fs989sdf834fsd2opzv',
-
-    // White background and border, black text and red grid
-    'colors'    => array(
-        'background' => array(255, 255, 255),
-        'border' => array(255, 255, 255),
-        'text' => array(0, 0, 0),
-        'grid' => array(255, 40, 40)
-    )
-);
-
-$cap = create_captcha($vals);
-echo $cap['image'];
 
 die();
 
@@ -141,5 +112,43 @@ die();
 		//$data = $this->uri->segment(3);
 		// print_r($data);
 		$this->load->view('atime/contacts',$data);
+	}
+
+
+
+	public function captcha_genner()
+	{
+		$this->load->helper('captcha');
+
+		$speed = 'sfljlwjqrljlfafasdfasldfj1231443534507698';
+		$word = '';
+		for($i = 0; $i < 4; $i++){
+			$word .= $speed[mt_rand(0, strlen($speed) - 1)];
+			}
+
+		$vals = array(
+		    'word'      => $word,
+		    'img_path'  => './captcha/',
+		    'img_url'   => base_url().'captcha/',
+		    'font_path' => base_url().'fonts/fontawesome-webfont.ttf',
+		    'img_width' => '80',
+		    'img_height'    => 30,
+		    'expiration'    => 4,
+		    'word_length'   => 4,
+		    'font_size' => 100,
+		    'img_id'    => 'captchaid',
+		    'pool'      => '25dsfdeweiip6575fs989sdf834fsd2opzv',
+
+		    // White background and border, black text and red grid
+		    'colors'    => array(
+		        'background' => array(255, 255, 255),
+		        'border' => array(255, 255, 255),
+		        'text' => array(0, 0, 0),
+		        'grid' => array(255, 40, 40)
+		    )
+		);
+
+		$cap = create_captcha($vals);
+		echo $cap['image'];
 	}
 }
