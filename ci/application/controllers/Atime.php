@@ -82,16 +82,46 @@ class Atime extends CI_Controller {
 	{
 		//$this->load->view('welcome_message');
 		$this->load->model('home_model','home');
-	
-
 		$this->load->library('email');
+		$this->load->helper('captcha');
 
-		$this->email->from('elevenperfect@126.com', 'ATIME');
-		$this->email->to('elevenperfect@126.com');
-		$this->email->subject('Email Test');
-		$this->email->message('Testing the email class.');
+		// $this->email->from('elevenperfect@126.com');
+		// $this->email->to('elevenperfect@126.com');
+		// $this->email->subject('Email Test');
+		// $this->email->message('ATIME，专注创造奇迹！');
+		// $this->email->send();
 
-		$this->email->send();
+
+
+// $vals = array(
+//     'word'      => 'Random word',
+//     'img_path'  => './captcha/',
+//     'img_url'   => 'http://example.com/captcha/',
+//     'font_path' => './path/to/fonts/texb.ttf',
+//     'img_width' => '150',
+//     'img_height'    => 30,
+//     'expiration'    => 7200,
+//     'word_length'   => 8,
+//     'font_size' => 16,
+//     'img_id'    => 'Imageid',
+//     'pool'      => '25dsfdeweiip6575fs989sdf834fsd2opzv',
+
+//     // White background and border, black text and red grid
+//     'colors'    => array(
+//         'background' => array(255, 255, 255),
+//         'border' => array(255, 255, 255),
+//         'text' => array(0, 0, 0),
+//         'grid' => array(255, 40, 40)
+//     )
+// );
+
+// $cap = create_captcha($vals);
+// echo $cap['image'];
+
+// die();
+
+
+
 
 		$data =array(
 			'home'    => $this->home->read_home(),
