@@ -45,6 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <span class="empty-message">*This field is required.</span>
                       <span class="error-message">*This is not a valid email.</span>
                     </label>
+
                     <label class="phone">
                       <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers" />
                       <span class="empty-message">*This field is required.</span>
@@ -56,11 +57,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <span class="empty-message">*This field is required.</span>
                       <span class="error-message">*The message is too short.</span>
                     </label>
+
                     <div class="ta__right">
                       <a href="#" class="btn" data-type="reset">clear</a>
                       <a href="#" class="btn" data-type="submit">send</a>
                     </div>
                   </fieldset> 
+                  
                   <div class="modal fade response-message">
                     <div class="modal-dialog">
                       <div class="modal-content">
