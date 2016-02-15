@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="<?php echo base_url()?>images/favicon.ico">
+		<link rel="shortcut icon" href="<?php echo base_url()?>images/favicon.png">
 
 		<!-- Web Fonts -->
 		<link href='http://fonts.useso.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>

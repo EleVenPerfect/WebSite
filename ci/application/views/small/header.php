@@ -12,12 +12,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="<?php echo base_url()?>images/favicon.ico" alt="Worthy"></a>
+								<a href="<?php echo site_url();?>"><img id="logo" src="<?php echo base_url()?>images/favicon.png" alt="Worthy"></a>
 							</div>
 
 							<!-- name-and-slogan -->
 							<div class="site-name-and-slogan smooth-scroll">
-								<div class="site-name"><a href="#banner">ATIME</a></div>
+								<div class="site-name"><a href="<?php echo site_url();?>">ATIME</a></div>
 								<div class="site-slogan">atime.org.cn</div>
 							</div>
 
