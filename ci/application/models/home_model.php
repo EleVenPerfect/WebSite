@@ -5,14 +5,6 @@
  */
 class home_model extends CI_Model{
 	/**
-	 * 查询head数据
-	 */
-	public function read_home(){
-		$data = $this->db->get('index_config')->result_array();
-		return $data;
-	}
-
-	/**
 	 * 查询catagory数据
 	 */
 	public function read_catagory(){
