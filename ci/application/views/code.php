@@ -10,14 +10,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<?php $this->load->view('small/first') ?>
 	</head>
 	<body>
-		<?php $this->load->view('small/header') ?>
-
-		<IFRAME width=100% height=100% marginwidth=0 marginheight=0 SRC="<?php echo base_url(); ?>email\github.html" >
-			
-		</IFRAME>
-
-
-		<?php $this->load->view('small/copyright') ?>
-		<?php $this->load->view('small/last') ?>
+		
 	</body>
 </html>
