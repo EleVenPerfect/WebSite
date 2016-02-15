@@ -31,6 +31,8 @@ class Contacts extends CI_Controller {
 	{
 		//$this->load->view('welcome_message');
 		$this->load->model('home_model','home');
+		$this->load->model('contacts_model','cont');
+
 		$data =array(
 			'home' => $this->home->read_catagory(),
 			'cap'  => $this->captcha_genner()
@@ -48,7 +50,7 @@ class Contacts extends CI_Controller {
 		if( strtoupper($message['captcha1'])!=strtoupper($message['captcha2']) ) error('验证码错误');
 		else 
 		{
-			//保存数据库
+			$this->cont->save_message($message);//保存数据库
 			$this->send_email($message);
 			error('发送成功！');
 		}
