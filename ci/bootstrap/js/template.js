@@ -10,7 +10,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.jpg');
+		$(".banner-image").backstretch('http://i11.tietuku.com/4e121bdf51e991eb.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
