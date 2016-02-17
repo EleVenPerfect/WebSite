@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'atime_ci',
+	'hostname' => '163.53.18.217',
+	'username' => 'louis',
+	'password' => '799799',
+	'database' => 'louis',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'atime_',
 	'pconnect' => TRUE,

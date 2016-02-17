@@ -15,12 +15,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 	</head>
 	<body>
+		<div class="fixed-header-on">
 		<?php $this->load->view('small/header') ?>
+		</div>
 
 
 
 
-    <div role="main" class="main-content">
+
+
+	<div class="container object-non-visible" data-animation-effect="fadeIn">
 
       <div id="js-pjax-container" class="context-loader-container" data-pjax-container>
         
@@ -52,8 +56,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
     <div class="column three-fourths">
 
-	 <p/>&nbsp;<p/>&nbsp;
-  
 
       <div class="js-repo-filter position-relative">
           <div class="contributions-tab">
@@ -62,11 +64,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <div class="single-column">
 
       <div class="boxed-group flush">
-        <h3>Popular repositories</h3>
+        <h3>代码仓库</h3>
         <ul class="boxed-group-inner mini-repo-list">
 	 
 	  <li class="public source ">
-	      <a target="blank" href="https://github.com/EleVenPerfect/ATIME_51_MCU" ><a target="blank" href="https://github.com/EleVenPerfect/ATIME_51_MCU" class="mini-repo-list-item css-truncate">
+	      <a target="blank" href="https://github.com/EleVenPerfect/ATIME_51_MCU" class="mini-repo-list-item css-truncate">
 	        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
 	      <span class="repo-and-owner css-truncate-target">
 		<span class="repo" title="ATIME_51_MCU">ATIME_51_MCU</span>
@@ -75,12 +77,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	        1
 	        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
 	      </span>
-	      <span class="repo-description css-truncate-target">ATIME 51单片机库</span>
-	    </a></a>
+	      <span class="repo-description css-truncate-target">ATIME 51单片机库源码</span>
+	    </a>
 	  </li>
   
 	  <li class="public source ">
-	      <a href="https://github.com/EleVenPerfect/ATIME_MSP430" target="blank"><a target="blank" href="https://github.com/EleVenPerfect/ATIME_MSP430" class="mini-repo-list-item css-truncate">
+	      <a target="blank" href="https://github.com/EleVenPerfect/ATIME_MSP430" class="mini-repo-list-item css-truncate">
 	        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
 	      <span class="repo-and-owner css-truncate-target">
 	<span class="repo" title="ATIME_MSP430">ATIME_MSP430</span>
@@ -89,11 +91,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	        0
 	        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
 	      </span>
-	      <span class="repo-description css-truncate-target">ATIME MSP430程序库</span>
-	    </a></a>
+	      <span class="repo-description css-truncate-target">ATIME MSP430程序库源码</span>
+	    </a>
 	  </li>
 		  <li class="public source ">
-		     <a href="https://github.com/EleVenPerfect/S3C2440" target="blank"> <a target="blank" href="https://github.com/EleVenPerfect/S3C2440" class="mini-repo-list-item css-truncate">
+		     <a target="blank" href="https://github.com/EleVenPerfect/S3C2440" class="mini-repo-list-item css-truncate">
 		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
 		      <span class="repo-and-owner css-truncate-target">
 		<span class="repo" title="S3C2440">S3C2440</span>
@@ -103,11 +105,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
 		      </span>
 		      <span class="repo-description css-truncate-target">S3C2440学习程序</span>
-		    </a></a>
+		    </a>
 		  </li>
 		
  		  <li class="public source ">
-	      <a href="https://github.com/EleVenPerfect/OTHERS" target="blank"><a target="blank" href="https://github.com/EleVenPerfect/OTHERS" class="mini-repo-list-item css-truncate">
+	      <a target="blank" href="https://github.com/EleVenPerfect/OTHERS" class="mini-repo-list-item css-truncate">
 	        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
 	      <span class="repo-and-owner css-truncate-target">
 		<span class="repo" title="ATIME_51_MCU">OTHERS</span>
@@ -117,10 +119,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
 	      </span>
 	      <span class="repo-description css-truncate-target">其他程序</span>
-	    	</a></a>
+	    	</a>
 	  	  </li>
 		  <li class="public source ">
-	      <a href="https://github.com/EleVenPerfect" target="blank"><a target="blank" href="https://github.com/EleVenPerfect" class="mini-repo-list-item css-truncate">
+	      <a target="blank" href="https://github.com/EleVenPerfect" class="mini-repo-list-item css-truncate">
 	        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
 	      <span class="repo-and-owner css-truncate-target">
 		<span class="repo" title="ATIME_51_MCU">了解更多</span>
@@ -130,14 +132,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
 	      </span>
 	      <span class="repo-description css-truncate-target">更多程序请点击这里</span>
-	    	</a></a>
+	    	</a>
 	  	 </li>
      </ul>
- 
+ 		<p/>&nbsp;<p/>&nbsp;
+      <div class="boxed-group flush">
+        <h3>程序库主页</h3>
+        <ul class="boxed-group-inner mini-repo-list">
+	 
+	  <li class="public source ">
+	      <a target="blank" href="http://elevenperfect.github.io/ATIME_51_MCU/" class="mini-repo-list-item css-truncate">
+	        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+	      <span class="repo-and-owner css-truncate-target">
+		<span class="repo" title="ATIME_51_MCU">ATIME_51_MCU</span>
+	      </span>
+	      <span class="stars">
+	        1
+	        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+	      </span>
+	      <span class="repo-description css-truncate-target">ATIME 51单片机库介绍</span>
+	    </a>
+	  </li>
+  
+	  <li class="public source ">
+	      <a target="blank" href="http://elevenperfect.github.io/ATIME_MSP430/" class="mini-repo-list-item css-truncate">
+	        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+	      <span class="repo-and-owner css-truncate-target">
+	<span class="repo" title="ATIME_MSP430">ATIME_MSP430</span>
+	      </span>
+	      <span class="stars">
+	        0
+	        <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+	      </span>
+	      <span class="repo-description css-truncate-target">ATIME MSP430程序库介绍</span>
+	    </a>
+	  </li>
+	</ul>
+	</div>
+		
   </div> </div> </div> </div> </div> </div> </div> </div> </div> 
   </div>
 
-
+	<p>&nbsp;<p/><p>&nbsp;<p/><p>&nbsp;<p/><p>&nbsp;<p/><p>&nbsp;<p/><p>&nbsp;<p/><p>&nbsp;<p/>
 
 
 		<?php $this->load->view('small/copyright') ?>

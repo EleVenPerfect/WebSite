@@ -7,7 +7,7 @@ class Contacts extends CI_Controller {
 	{
 		//$this->load->view('welcome_message');
 		$this->load->model('home_model','home');
-
+		// date_default_timezone_set("PRC");
 		$data =array(
 			'home' => $this->home->read_catagory(),
 			'cap'  => $this->captcha_genner()
@@ -15,7 +15,7 @@ class Contacts extends CI_Controller {
 		);
 		// print_r($data);die();
 
-		$this->output->enable_profiler(TRUE);
+		// $this->output->enable_profiler(TRUE);
 
 		if(!isset($_SESSION)){
 			session_start();
@@ -32,7 +32,7 @@ class Contacts extends CI_Controller {
 		//$this->load->view('welcome_message');
 		$this->load->model('home_model','home');
 		$this->load->model('contacts_model','cont');
-
+		date_default_timezone_set("PRC");
 		$data =array(
 			'home' => $this->home->read_catagory(),
 			'cap'  => $this->captcha_genner()
@@ -44,8 +44,10 @@ class Contacts extends CI_Controller {
 			'captcha1' => $this->session->captcha,			
 			'captcha2' => $this->input->post('captcha'),
 			'message' => $this->input->post('message'),
-			'date'    => date('Y-m-d H:i:s')
+			'date'    => time()
 		);
+
+		
 
 		if( strtoupper($message['captcha1'])!=strtoupper($message['captcha2']) ) error('验证码错误');
 		else 
@@ -54,7 +56,7 @@ class Contacts extends CI_Controller {
 			$this->send_email($message);
 			error('发送成功！');
 		}
-		$this->output->enable_profiler(TRUE);
+		// $this->output->enable_profiler(TRUE);
 		
 		$this->load->view('contacts',$data);
 	}
@@ -81,7 +83,7 @@ class Contacts extends CI_Controller {
 		    'word_length'   => 4,
 		    'font_size' => 100,
 		    'img_id'    => 'captchaid',
-		    'pool'      => '25dsfdeweiip6575fs989sdf834fsd2opzv',
+		    'pool'      => '25dsfdewe6789hp6575fs989sdf834fsd29nmeupzv',
 		    // White background and border, black text and red grid
 		    'colors'    => array(
 		        'background' => array(255, 255, 255),
@@ -115,10 +117,13 @@ class Contacts extends CI_Controller {
 	{
 
      	$body = file_get_contents(base_url().'email/email.html');
-	
+     	date_default_timezone_set("PRC");
+		$time = date("Y-m-d H:i:s");
+		// print_r($time);
+		
 		$body  = str_replace('ATIME_NAME',$message['name'],$body);
 		$body  = str_replace('ATIME_MESSAGE',$message['message'],$body);
-		$body  = str_replace('ATIME_DATE',$message['date'],$body);
+		$body  = str_replace('ATIME_DATE',$time,$body);
 
 	    return $body;
     } 

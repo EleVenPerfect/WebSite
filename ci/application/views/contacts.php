@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 									留下您的电子邮件和我取得联系。
 								</p>
 								<ul class="list-icons">
-									<li><i class="fa fa-map-marker pr-10"></i>  Chengde City，Heibei Province，China</li>
+									<li><i class="fa fa-map-marker pr-10"></i>  Chengde City，Hebei Province，China</li>
 									<!-- <li><i class="fa fa-phone pr-10"></i> +00 1234567890</li> -->
 									<li><i class="fa fa-fax pr-10"></i> 595309963 </li>
 									<li><i class="fa fa-envelope-o pr-10"></i> atime@atime.org.cn</li>
@@ -40,12 +40,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 									<li class="flickr"><a target="_blank" href="http://sc.chinaz.com"><i class="fa fa-flickr"></i></a></li>
 									<li class="pinterest"><a target="_blank" href="http://sc.chinaz.com"><i class="fa fa-pinterest"></i></a></li> -->
 								</ul>
+
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-content">
+							
 								<form action="<?php echo site_url("Contacts/checkmessage") ?>" method="post" class="form-horizontal">
-								  	
+								    	
 								  	<div class="form-group" >
 								    	<label class="col-sm-2 control-label">Name</label>
 								    	<div class="col-sm-10">
@@ -84,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 							</div>
 						</div>
 					</div>
-			</div>
+			</div><p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;
 		</div>
 
 

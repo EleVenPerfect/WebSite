@@ -10,12 +10,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<?php $this->load->view('small/first') ?>
 	</head>
 	<body class="scroll-spy fixed-header-on" style="overflow-y: hidden">
+		<div class="fixed-header-on">
 		<?php $this->load->view('small/header') ?>
+		</div>
 		
 		<IFRAME width=100% height=100% marginwidth=0 marginheight=0 SRC="http://i.youku.com/elevenperfect"  allowtransparency="yes" >
 		</IFRAME>
 
 		<?php $this->load->view('small/copyright') ?>
-		
+		<?php $this->load->view('small/last') ?>
 	</body>
 </html>
