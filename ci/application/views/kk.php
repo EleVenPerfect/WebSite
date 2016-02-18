@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 </head>
 <body>
 	<audio autoplay="autopaly">
-		<source src="<?php echo base_url()?>bootstrap/kk/index.mp3" type="audio/mp3">
+		<source src="http://mpge.5nd.com/2010/2010b/2011-10-11/49970/1.mp3" type="audio/mp3">
 	</audio>
        <div id="main">
        	<div id="error">ATIME提醒:本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌或者火狐浏览器，或者其他游览器的最新版本。</div>
