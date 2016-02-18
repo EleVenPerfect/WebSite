@@ -64,8 +64,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	                								}	
 	                								?>">
 
-                								<a href="<?php echo base_url($v['catagory']) ?>"><?php echo  $v['catagory'] ?></a>
-                								<!-- <a href="<?php echo site_url($v['catagory']) ?>"><?php echo  $v['catagory'] ?></a> -->
+                								<!-- <a href="<?php echo base_url($v['catagory']) ?>"><?php echo  $v['catagory'] ?></a> -->
+                								<a href="<?php echo site_url($v['catagory']) ?>"><?php echo  $v['catagory'] ?></a>
                 								</li>
                								<?php endforeach ?>
 											</ul>
