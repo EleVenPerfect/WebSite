@@ -1,0 +1,5 @@
+readme
+
+1.设置session采用database了。
+2.database 的	'pconnect' => FALSE。
+3.在home.php 的controller中开启的缓存10分钟：$this->output->cache(10);//一分钟缓存

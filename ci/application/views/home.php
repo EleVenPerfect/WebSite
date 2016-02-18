@@ -40,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6">
-								<img src="<?php echo $page2pic['0']['value']; ?>" alt="">
+								<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=400 height=500 src="<?php echo $page2pic['0']['value']; ?>"></iframe>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
