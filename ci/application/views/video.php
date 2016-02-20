@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 <html lang="en">
 <!--<![endif]-->
 	<head>
-		<title>ATIME，专注创造奇迹！</title>
+		<title>视频--ATIME，专注创造奇迹！</title>
 		<?php $this->load->view('small/first') ?>
 	</head>
 	<body class="scroll-spy fixed-header-on" style="overflow-y: hidden">

@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 <html lang="en">
 <!--<![endif]-->
 	<head>
-		<title>ATIME，专注创造奇迹！</title>
+		<title>联系--ATIME，专注创造奇迹！</title>
 		<?php $this->load->view('small/first') ?>
 	</head>
 	<body>

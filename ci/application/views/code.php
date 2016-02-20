@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 <html lang="en">
 <!--<![endif]-->
 	<head>
-		<title>ATIME，专注创造奇迹！</title>
+		<title>代码--ATIME，专注创造奇迹！</title>
 		<?php $this->load->view('small/first') ?>
 
 		<link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-853fabebc2325562b3c08cb300722e32b78f5a40cdb4cb5866e36d56f5cd31d6.css" media="all" rel="stylesheet" />
