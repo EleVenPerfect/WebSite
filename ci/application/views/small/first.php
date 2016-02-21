@@ -2,7 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 		<meta charset="utf-8">
-
+<!-- 必应搜索接入 -->
+		<meta name="msvalidate.01" content="393A82356B5C01CEBFCF35FF1F99E696" /> 
+<!-- 必应搜索接入 -->
 		<meta name="description" content="ATIME的个人网站。ATIME，专注创造奇迹！">
 		<meta name="author" content="ATIME">
 
