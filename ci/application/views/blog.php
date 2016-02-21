@@ -8,6 +8,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	<head>
 		<title>博客--ATIME，专注创造奇迹！</title>
 		<?php $this->load->view('small/first') ?>
+		<?php $this->load->view('small/cache') ?>
+
 	</head>
 	<body class="scroll-spy fixed-header-on" style="overflow-y: hidden">
 		<div class="fixed-header-on">

@@ -8,6 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	<head>
 		<title>代码--ATIME，专注创造奇迹！</title>
 		<?php $this->load->view('small/first') ?>
+		<?php $this->load->view('small/cache') ?>
 
 		<link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-853fabebc2325562b3c08cb300722e32b78f5a40cdb4cb5866e36d56f5cd31d6.css" media="all" rel="stylesheet" />
 	    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-b81fdfde5b6f438c4a9c76ac60030fbf531179e39792b1ebc708d5cd73a24f88.css" media="all" rel="stylesheet" />

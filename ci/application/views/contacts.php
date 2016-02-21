@@ -8,6 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	<head>
 		<title>联系--ATIME，专注创造奇迹！</title>
 		<?php $this->load->view('small/first') ?>
+		<?php $this->load->view('small/cache') ?>
 	</head>
 	<body>
 		<?php $this->load->view('small/header') ?>

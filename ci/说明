@@ -2,5 +2,5 @@ readme
 
 1.设置session采用database了。
 2.database 的	'pconnect' => FALSE。
-3.在home.php 的controller中开启的缓存10分钟：$this->output->cache(10);//一分钟缓存
+3.在view/small/cache.php 中开启的缓存10分钟：$this->output->cache(10);//一分钟缓存
 4.开启.htaccess 后需要修改view/small的header67-68行，分别对应开启、关闭.htaccess。

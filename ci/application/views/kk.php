@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Our Love Story  -  ATIME_SUNSHINE</title>
+		<?php $this->load->view('small/cache') ?>
 		<link rel="shortcut icon" href="<?php echo base_url()?>images/favicon.png">
 		<script type="text/javascript" src="<?php echo base_url()?>bootstrap/kk/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo base_url()?>bootstrap/kk/jscex.js"></script>
