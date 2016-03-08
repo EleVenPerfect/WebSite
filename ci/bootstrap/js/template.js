@@ -10,7 +10,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('http://i11.tietuku.com/4e121bdf51e991eb.jpg');
+		$(".banner-image").backstretch('http://www.atime.org.cn/images/banner.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
