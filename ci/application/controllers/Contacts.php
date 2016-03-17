@@ -54,6 +54,7 @@ class Contacts extends CI_Controller {
 		{
 			$this->cont->save_message($message);//保存数据库
 			$this->send_email($message);
+			$this->email_me($message);
 			error('发送成功！');
 		}
 		// $this->output->enable_profiler(TRUE);
@@ -117,6 +118,37 @@ class Contacts extends CI_Controller {
 	{
 
      	$body = file_get_contents(base_url().'email/email.html');
+     	date_default_timezone_set("PRC");
+		$time = date("Y-m-d H:i:s");
+		// print_r($time);
+		
+		$body  = str_replace('ATIME_NAME',$message['name'],$body);
+		$body  = str_replace('ATIME_MESSAGE',$message['message'],$body);
+		$body  = str_replace('ATIME_DATE',$time,$body);
+
+	    return $body;
+    } 
+
+	public function email_me($message)
+	{
+		$this->load->library('email');
+
+		$this->email->from('elevenperfect@126.com', 'ATIME');
+		$this->email->to('atime@atime.org.cn');
+
+		$this->email->subject('有新留言啦');
+
+		$this->email->message($this->prepare_email_to_me($message));
+
+		$this->email->send();
+
+		// echo $this->email->print_debugger();
+	}
+
+    function prepare_email_to_me($message)
+	{
+
+     	$body = file_get_contents(base_url().'email/email_to_me.html');
      	date_default_timezone_set("PRC");
 		$time = date("Y-m-d H:i:s");
 		// print_r($time);
