@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<?php $this->load->view('small/header') ?>
 		</div>
 		<div class="space"></div>
-		<iframe width=100% height=100% marginwidth=0 marginheight=0 SRC="http://louislii.lofter.com/"  allowtransparency="yes" >
+		<iframe width=100% height=100% marginwidth=0 marginheight=0 SRC="http://louislii.lofter.com/view"  allowtransparency="yes" >
 		</iframe>
 
 		<?php $this->load->view('small/copyright') ?>
