@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 					<?php foreach($sec as $v): ?>
 					<div class="col-md-4">
-						<a href="<?php echo $v['url'] ?>" target="new" style="text-decoration:none;" >
+						<a href="<?php echo $v['url'] ?>" target="_blank" style="text-decoration:none;" >
 						<div class="media testimonial">
 							<div class="media-left">
 								<img src="<?php echo $v['pic'] ?>" alt="">
