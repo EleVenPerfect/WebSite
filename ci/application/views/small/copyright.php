@@ -6,7 +6,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center">Copyright &copy; 2014-2016. <a href="<?php echo site_url()?>">ATIME.org.cn</a> All rights reserved.</p>
+					<p class="text-center">Copyright &copy; 2014-2016. <a href="<?php echo site_url()?>">&nbsp;ATIME.org.cn</a> All rights reserved.&nbsp;
+					<?php $this->load->view('small/count') ?>
+					</p>
 				</div>
 			</div>
 		</div>
