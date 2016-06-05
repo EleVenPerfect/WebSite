@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 
 
-	<div class="container object-non-visible" data-animation-effect="fadeIn">
+	<div style="width: 88%" class="container object-non-visible" data-animation-effect="fadeIn">
 
       <div id="js-pjax-container" class="context-loader-container" data-pjax-container>
         
