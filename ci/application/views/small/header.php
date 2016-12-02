@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 							<!-- name-and-slogan -->
 							<div class="site-name-and-slogan smooth-scroll">
 								<div class="site-name"><a href="<?php echo site_url();?>">ATIME</a></div>
-								<div class="site-slogan">atime.org.cn</div>
+								<div class="site-slogan">atime technology</div>
 							</div>
 
 						</div>

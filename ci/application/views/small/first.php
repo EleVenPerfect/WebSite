@@ -15,8 +15,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<link rel="shortcut icon" href="<?php echo base_url()?>images/favicon.png">
 
 		<!-- Web Fonts -->
-		<link href='http://fonts.useso.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.useso.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
 		<!-- Bootstrap core CSS -->
 		<link href="<?php echo base_url()?>bootstrap/css/bootstrap.css" rel="stylesheet">

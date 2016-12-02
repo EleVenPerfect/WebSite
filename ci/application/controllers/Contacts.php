@@ -118,7 +118,7 @@ class Contacts extends CI_Controller {
 	{
 
      	$body = file_get_contents(base_url().'email/email.html');
-     	date_default_timezone_set("PRC");
+     	date_default_timezone_set('Asia/Chongqing'); 
 		$time = date("Y-m-d H:i:s");
 		// print_r($time);
 		
@@ -149,7 +149,7 @@ class Contacts extends CI_Controller {
 	{
 
      	$body = file_get_contents(base_url().'email/email_to_me.html');
-     	date_default_timezone_set("PRC");
+     	date_default_timezone_set('Asia/Chongqing'); 
 		$time = date("Y-m-d H:i:s");
 		// print_r($time);
 		

@@ -4,3 +4,5 @@ readme
 2.database 的	'pconnect' => FALSE。
 3.在view/small/cache.php 中开启的缓存10分钟：$this->output->cache(10);//一分钟缓存
 4.开启.htaccess 后需要修改view/small的header67-68行，分别对应开启、关闭.htaccess。
+5.时区设置在:application/config/config.php#479,设置为date_default_timezone_set('Asia/Chongqing'); 
+			 application/controller/Contracts.php#121#152；
