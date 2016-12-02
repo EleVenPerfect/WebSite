@@ -54,19 +54,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
 											<?php foreach($home as $v): ?>
-                								<li class="<?php
-	                								$aid = $this->uri->segment(1);
-	                								if ($aid==$v['catagory']) {
-	                									echo 'active';
-	                								}
-	                								if ($aid=='index'&&$v['catagory']=='Home') {
-	                									echo 'active';
-	                								}	
-	                								?>">
 
-                								<a href="<?php echo base_url($v['catagory']) ?>"><?php echo  $v['catagory'] ?></a>
-                								<!-- <a href="<?php echo site_url($v['catagory']) ?>"><?php echo  $v['catagory'] ?></a> -->
-                								</li>
+                								<?php
+                									if($v['state']=='on') 
+                									{	 
+	                									echo '<li class="';
+		                								$aid = $this->uri->segment(1);
+		                								if ($aid==$v['catagory']) {
+		                									echo 'active';
+		                								}
+		                								if ($aid=='index'&&$v['catagory']=='Home') {
+		                									echo 'active';
+		                								}	
+		                								echo '">';
+
+		                								echo '<a href="';
+		                								echo base_url($v['catagory']); 
+		                								echo '">';
+		                								echo  $v['catagory'];
+		                								echo '</a>';
+
+	                									echo '</li>';
+	                								}
+                								?>
+
                								<?php endforeach ?>
 											</ul>
 										</div>
