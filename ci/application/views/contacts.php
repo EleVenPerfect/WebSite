@@ -28,8 +28,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 								<ul class="list-icons">
 									<li><i class="fa fa-map-marker pr-10"></i>  Chengde City，Hebei Province，China</li>
 									<!-- <li><i class="fa fa-phone pr-10"></i> +00 1234567890</li> -->
-									<li><i class="fa fa-fax pr-10"></i> QQ:595309963 </li>
-									<li><i class="fa fa-envelope-o pr-10"></i> atime2008@atime.org.cn</li>
+									<li><i class="fa fa-fax pr-10"></i>
+									<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=595309963&site=qq&menu=yes" style="text-decoration:none;"> QQ:595309963 
+									</a>
+									</li>
+
+									<li><i class="fa fa-envelope-o pr-10"></i>
+									<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=atime2008@atime.org.cn" style="text-decoration:none;"> atime2008@atime.org.cn 
+									</a>
+									</li>
 								</ul>
 								<ul class="social-links">
 									<!-- <li class="facebook"><a target="_blank" href="http://sc.chinaz.com"><i class="fa fa-facebook"></i></a></li>
