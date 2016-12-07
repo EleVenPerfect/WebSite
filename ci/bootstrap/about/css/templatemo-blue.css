@@ -293,7 +293,7 @@ a.weixin {
  
 .weixin img {
     position: absolute;
-    right: -55px;
+    right: -60px;
     top: -175px;
     z-index: 99;
     width: 10rem;
