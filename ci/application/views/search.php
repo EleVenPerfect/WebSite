@@ -13,7 +13,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 	<body>
 		<?php $this->load->view('small/header') ?>
 
-
 		<div class="section translucent-bg bg-image-2 pb-clear">
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
 			<div class="space"></div>
@@ -22,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 					<?php foreach($sec as $v): ?>
 					<div class="col-md-4">
-						<a href="<?php echo $v['url'] ?>" target="_blank" style="text-decoration:none;" >
+						<a target="_blank" href="<?php echo $v['url'] ?>" style="text-decoration:none;" >
 						<div class="media testimonial">
 							<div class="media-left">
 								<img src="<?php echo base_url().'bootstrap/images/ico/'.$v['pic'] ?>" alt="">
