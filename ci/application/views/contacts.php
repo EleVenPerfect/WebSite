@@ -80,7 +80,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 								  	<div class="form-group">
 								  		<label class="col-sm-2 control-label">Message</label>
 								  		<div class="col-sm-10">
-								    		<textarea class="form-control" name="message" rows="5"></textarea>
+								    		<textarea class="form-control" name="message" rows="5" placeholder="验证码10秒后可刷新"></textarea>
 								    	</div>
 								  	</div>
 								  	<div class="form-group">
