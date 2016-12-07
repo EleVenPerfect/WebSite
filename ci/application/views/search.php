@@ -25,13 +25,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 						<a href="<?php echo $v['url'] ?>" target="_blank" style="text-decoration:none;" >
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="<?php echo $v['pic'] ?>" alt="">
+								<img src="<?php echo base_url().'bootstrap/images/ico/'.$v['pic'] ?>" alt="">
 							</div>
 							<div class="media-body">
 								<h3 class="media-heading"><?php echo $v['title'] ?></h3>
 								<blockquote>
-									<?php echo $v['contain'] ?>
-									<footer><?php echo $v['footer'] ?></footer>
+									<footer><?php echo $v['contain'] ?></footer>
 									</blockquote>
 							</div>
 						</div>
