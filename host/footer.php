@@ -18,7 +18,9 @@
         <div class="social-popout"><a href="#"><img src="images/twitter.png" /></a></div>
         <div class="social-popout"><a href="#"><img src="images/googleplus.png" /></a></div>
         <div class="social-popout"><a href="#"><img src="images/facebook.png" /></a></div>  
-       <p>© <?echo $yourdomain;?>, Powered By <a href="http://<?echo $yourdomain;?>">iFastNet</a>.</p>
+       <p>© <?echo $yourdomain;?>, Powered By <a href="http://<?echo $yourdomain;?>">iFastNet</a>.
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260969474'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260969474' type='text/javascript'%3E%3C/script%3E"));</script>
+       </p>
       <div class="spacer"></div>
     </div>
   </div>
