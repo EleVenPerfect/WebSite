@@ -50,7 +50,7 @@ include('geturl.php');
 
 				<td>Web Disk Space</td>
 
-				<td align="center"><span>60 MB</span></td>
+				<td align="center"><span>100 MB</span></td>
 
 			</tr>
 

@@ -30,7 +30,6 @@ include('geturl.php');
     <div class="header_text2">
     <img src="images/server2.png" alt="Free hosting" />
     <h2>Thank you!</h2>
-      <p>That was a good decision! Thank you for trusting us!</p>
       <div class="spacer"></div>
     </div>
     <div class="menu_resize">
@@ -41,7 +40,7 @@ include('geturl.php');
   <div class="body_resize">
     <div class="body">
 	<h2>Please fill out the form below</h2>
-  <h3>contact me with email:<? echo $supportmail;?>,<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=<? echo $supportmail;?>">click here!</a></h3>
+  <h3>contact me with email:<? echo $supportmail;?>,<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=<? echo $supportmail;?>">click here!</a></h3>
 			<div class="body-left">
 		<form class="signup" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
 			<table>

@@ -30,8 +30,8 @@ include('geturl.php');
             Web Hosting<br /></h2>
           <p><b>Sign up and get benefit of these features & more!</b></p>
           <ul>
-            <li><b>60MB Cloud Storage & 1GB Bandwidth</b></li>
-            <li><b>Host Up To 10 Websites 2 Each Account</b></li>
+            <li><b>100MB Cloud Storage & 1GB Bandwidth</b></li>
+            <li><b>Host Up To 1 Websites Each Account</b></li>
             <li><b>1 MySQL Databases, FTP & Email accounts</b></li>
             <li><b>24/7 Monitoring & Firewall Protection</b></li>
             <li><b>Free Website Builder & Softaculous</b></li>
