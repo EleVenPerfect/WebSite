@@ -41,15 +41,19 @@ include('geturl.php');
   <div class="body_resize">
     <div class="body">
 	<h2>Please fill out the form below</h2>
+  <h3>contact me with email:<? echo $supportmail;?>,<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=<? echo $supportmail;?>">click here!</a></h3>
 			<div class="body-left">
 		<form class="signup" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
 			<table>
 				<tr><th>Username<td><input class="signupipt" type=text name=username size=30 value=""  maxlength="16" onkeyup="return ismaxlength(this)"><td>
 				<tr><th>Password<td><input class="signupipt" type=password name=password size=30 maxlength="8" onkeyup="return ismaxlength(this)"><td>
 				<tr><th>Email Address<td><input class="signupipt" type=text name=email size=30 value=""><td>
-				<tr><th style="text-align: left;">Select Plan<td>
-				<select class="signupiptsl" name='plan_name'><option value="free host with ad">free host with ad</option><option value="host with 100mb">host with 100mb</option><option value="host with 200mb">host with 200mb</option></select><td>
 				
+        <tr><th style="text-align: left;">Select Plan<td>
+				<select class="signupiptsl" name='plan_name'>
+        <? include ('packages.php'); ?>
+        </select><td>
+
 				<input type="hidden" name="id" value="<?PHP echo $id; ?>">
 				<tr><th>Security Code<td><div class="captcha"><img width=200px; height=90px; src="http://order.<? echo "$yourdomain" ;?>/image.php?id=<?PHP echo $id; ?>"></div><td>
 				<tr><th>Enter Security Code<td><input class="signupipt" type=text name=number size=30><td>
