@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 			<div class="space"></div>
 				<h1 id="clients" class="title text-center">Search</h1>
 				<div class="space"></div>
-
+				
 					<?php foreach($sec as $v): ?>
 					<div class="col-md-4">
 						<a target="_blank" href="<?php echo $v['url'] ?>" style="text-decoration:none;" >
@@ -38,7 +38,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 					<?php endforeach ?>
 					
 			</div>
-			<div class="space"></div><div class="space"></div>
+			<div class="space"><p/>&nbsp;</div><div class="space"><p/>&nbsp;</div>
+			<div class="space"><p/>&nbsp;</div><div class="space"><p/>&nbsp;</div>
 		</div>
 
 		<?php $this->load->view('small/copyright') ?>
