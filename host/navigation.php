@@ -5,7 +5,7 @@
           <li class="3"><a href="premium-hosting.php" class="red">Premium Hosting</a></li>
           <!-- <li class="4"><a href="domains.php" class="blue">Domain Names</a></li> -->
           <li class="4"><a href="whyus.php" class="purple">Why Us</a></li>
-          <li class="5"><a href="<? echo $supporturl;?>" class="grey">Ask Me</a></li>
-		      <li class="6"><a href="http://cpanel.<? echo "$yourdomain" ;?>" class="red">Login to cPanel</a></li>
+          <li class="5"><a target="_blank" href="<? echo $supporturl;?>" class="grey">Ask Me</a></li>
+		      <li class="6"><a target="_blank" href="http://cpanel.<? echo "$yourdomain" ;?>" class="red">Login to cPanel</a></li>
         </ul>
       </div>
