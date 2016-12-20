@@ -33,7 +33,7 @@ include('geturl.php');
             <li><b>100MB 云存储空间 & 1GB 流量</b></li>
             <li><b>支持绑定自定义域名</b></li>
             <li><b>1 MySQL 数据库, FTP & Email 账户</b></li>
-            <li><b>24/7 超强防护墙保护</b></li>
+            <li><b>7*24小时超强防火墙保护</b></li>
             <li><b>cPanel 易用控制面板</b></li>
           </ul>
           <div class="spacer"></div><br/ >
