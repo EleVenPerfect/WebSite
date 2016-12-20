@@ -57,7 +57,7 @@ include('geturl.php');
       <div class="bloga">
         <h2>免费云主机</h2>
         <img class="fade" src="images/1.png" alt="Free hosting" />
-        <p>我们提供高品质的免费虚拟主机托管!</p>
+        <p>我们提供高品质的免费虚拟主机托管，并提供免费升级服务。</p>
         <p><a href="free-hosting.php" class="btn-small">了解更多</a></p>
       </div>
       <div class="bloga">
@@ -69,7 +69,7 @@ include('geturl.php');
       <div class="bloga">
         <h2>cPanel 管理面板</h2>
         <img class="fade" src="images/3.png" alt="Why Us" />
-        <p> 提供一个强大的，易于使用的控制面板管理您的网站.</p>
+        <p> 提供一个强大的，易于使用的控制面板管理您的网站。</p>
         <p><a href="whyus.php" class="btn-small">了解更多</a></p>
       </div>
     </div>
@@ -78,6 +78,7 @@ include('geturl.php');
   <div class="body_resize">
     <div class="body">
   <h2>欢迎使用ATIME云主机</h2>
+    <p>注册默认空间100MB，使用期间空间不足可以联系管理员免费增加空间。免费空间来之不易，请大家珍惜资源，杜绝滥用。<br>
   	<p>我们是互联网上最大的免费服务器托管组织之一。你可以在这里注册快速获得支持PHP和MySQL的云主机、一个功能强大、易用，管理网站的控制面板，各种强大的功能，包括：网站建设工具，电子邮件，FTP<br>我们的免费服务平台支持自动启用SSL HTTPS保护每一个域名。这意味着在我们的服务器上所有的网站都为拥有更强的安全性和更好的搜索引擎排名!</p>
   <hr />
   </div>      
