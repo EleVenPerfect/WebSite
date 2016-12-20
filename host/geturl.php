@@ -5,5 +5,6 @@
 
     $supportmail = 'atime2008@atime.org.cn';
     $supporturl  = 'http://askme.atime.site';
+    $webname     = 'ATIME云主机';
 ?>
 

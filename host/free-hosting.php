@@ -6,7 +6,7 @@ include('geturl.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Template designed by iFastNet (iFastNet.com) exclusively for MyOwnFreeHost.com users -->
 <head>
-<title>Free Hosting - ATIME.SITE</title>
+<title>免费主机计划 - ATIME云主机</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@ include('geturl.php');
 <div class="main">
   <div class="blok_header">
     <div class="header">
-      <div class="logo"><a href="index.php"><?echo $yourdomain;?></a></div>
+      <div class="logo"><a href="index.php"><?echo $webname;?></a></div>
       <? include ('navigation.php'); ?>
       <div class="spacer"></div>
     </div>
@@ -25,7 +25,7 @@ include('geturl.php');
   <div class="header_text_bg2">
     <div class="header_text2">
     <img src="images/server2.png" alt="Free hosting" />
-    <h2><small>Free Hosting Features</small></h2>
+    <h2><small>免费主机特性</small></h2>
       <div class="spacer"></div>
     </div>
     <div class="menu_resize">
@@ -35,12 +35,12 @@ include('geturl.php');
   </div>
   <div class="body_resize">
     <div class="body">
-<h2>This is what we offer</h2>
+<h2>我们免费提供如下服务：</h2>
 	<table class="features-table">
 
 			<tr>
 
-				<td>Monthly Bandwidth</td>
+				<td>每月网络带宽</td>
 
 				<td align="center"><span>1 GB</span></td>
 
@@ -48,7 +48,7 @@ include('geturl.php');
 
 			<tr>
 
-				<td>Web Disk Space</td>
+				<td>网页存储空间</td>
 
 				<td align="center"><span>100 MB</span></td>
 
@@ -56,15 +56,15 @@ include('geturl.php');
 
 			<tr>
 
-				<td>Price</td>
+				<td>价格</td>
 
-				<td align="center"><span>$0.00 /Month</span></td>
+				<td align="center"><span>￥0.00 每月</span></td>
 
 			</tr>
 
 			<tr>
 
-				<td>Parked Domains</td>
+				<td>绑定域名</td>
 
 				<td align="center">1</td>
 
@@ -73,15 +73,15 @@ include('geturl.php');
 
 			<tr>
 
-				<td>PHP Sendmail</td>
+				<td>PHP Sendmail发送邮件</td>
 
-				<td align="center">Limited, for activation emails only</td>
+				<td align="center">有限的使用权限，可用于发送激活邮件</td>
 
 			</tr>
 
 			<tr>
 
-				<td>MySQL Databases</td>
+				<td>MySQL 数据库</td>
 
 				<td align="center">1</td>
 
@@ -89,40 +89,17 @@ include('geturl.php');
 
 			<tr>
 
-				<td>FTP Accounts</td>
+				<td>FTP 账户</td>
 
 				<td align="center">1</td>
 
 			</tr>
 
 
-			<tr>
-
-				<td>SiteBuilder</td>
-
-				<td align="center"><div class="check"><img src="images/check.png"></div></td>
-
-			</tr>
 
 			<tr>
 
-				<td>Site Statistics</td>
-
-				<td align="center"><div class="check"><img src="images/check.png"></div></td>
-
-			</tr>
-
-			<tr>
-
-				<td>Automatic Softaculous Script Installer</td>
-
-				<td align="center"><div class="check"><img src="images/check.png"></div></td>
-
-			</tr>
-
-			<tr>
-
-				<td>PHP Flags Manager</td>
+				<td>PHP 版本设置</td>
 
 				<td align="center"><div class="check"><img src="images/check.png"></div></td>
 
@@ -131,7 +108,7 @@ include('geturl.php');
 
 			<tr>
 
-				<td><h4>SCRIPTING FEATURES</h4></td>
+				<td><h4>语言特性</h4></td>
 
 				<td align="center"></td>
 
@@ -165,7 +142,7 @@ include('geturl.php');
 
 			<tr>
 
-				<td><h4>SECURITY</h4></td>
+				<td><h4>安全选项</h4></td>
 
 				<td align="center"></td>
 
@@ -173,7 +150,7 @@ include('geturl.php');
 
                         <tr>
 
-                                <td>Automatic Self Signed SSL (https://)</td>
+                                <td>SSL 支持 (https://)</td>
 
                                 <td align="center"><div class="check"><img src="images/check.png"></div></td>
 
@@ -181,7 +158,7 @@ include('geturl.php');
 
                         <tr>
 
-                                <td>Install your own SSL certificate</td>
+                                <td>安装自定义 SSL 证书</td>
 
                                 <td align="center"><div class="check"><img src="images/check.png"></div></td>
 
@@ -191,24 +168,16 @@ include('geturl.php');
 
 			<tr>
 
-				<td>Firewall Protection</td>
+				<td>防火墙</td>
 
 				<td align="center"><div class="check"><img src="images/check.png"></div></td>
 
 			</tr>
-
-
-			<tr>
-
-				<td>Generator</td>
-
-				<td align="center"><div class="check"><img src="images/check.png"></div></td>
-
-			</tr>			
+		
 
 			<tr>
 
-				<td>Hotlink Protection</td>
+				<td>盗链保护</td>
 
 				<td align="center"><div class="check"><img src="images/check.png"></div></td>
 
@@ -216,7 +185,7 @@ include('geturl.php');
 
 			<tr>
 
-				<td><h4>OUR TECHNOLOGY</h4></td>
+				<td><h4>我们的服务设备</h4></td>
 
 				<td align="center"></td>
 
@@ -232,7 +201,7 @@ include('geturl.php');
 
 			<tr>
 
-				<td>Linux Clustered Server Network</td>
+				<td>Linux 服务器集群</td>
 
 				<td align="center"><div class="check"><img src="images/check.png"></div></td>
 
@@ -240,7 +209,7 @@ include('geturl.php');
 
 			<tr>
 
-				<td>Intel Processors</td>
+				<td>Intel CPU</td>
 
 				<td align="center"><div class="check"><img src="images/check.png"></div></td>
 
@@ -248,31 +217,31 @@ include('geturl.php');
 
 			<tr>
 
-				<td>Apache Web Servers</td>
+				<td>Apache 网页服务器</td>
 
 				<td align="center"><div class="check"><img src="images/check.png"></div></td>
 
 			</tr>
 
 		</table>
-		<a href="signup.php" class="btn-sign">Sign up now!</a>
+		<a href="signup.php" class="btn-sign">现在注册!</a>
       <div class="body_small">
-        <h2>And even more!</h2>
-        <p><span>Free website builder</span></p>
+        <h2>除了这些还有!</h2>
+        <p><span>免费网站建设器</span></p>
         <img class="fade" src="images/1.jpg">
-        <p>We offer an easy-to-use drag & drop free website builder tool that will help you create professional looking websites!</p>
+        <p>我们提供一个易于使用的拖放免费网站建设者工具，将帮助您创建专业外观网站!</p>
         
-        <p><span>Softaculous Script installer!</span></p>
+        <p><span>脚本安装器!</span></p>
         <img class="fade" src="images/2.jpg">
-        <p>It takes time & knowledge to install a forum, blog or an online store, not with our free One-click Softaculous script installer!</p>
+        <p>帮助您快速安装常用网站程序(如WordPress等)、框架(如CodeIgniter等)大大减少上传文件时间!</p>
         
-        <p><span>Free SEO tools!</span></p>
+        <p><span>免费 SEO 工具!</span></p>
         <img class="fade" src="images/3.jpg">
-        <p>We will also offering free SEO tools to submit and help your websites get better ranking in the social networks!</p>
+        <p>我们还提供免费的SEO工具，帮助您的网站在社交网络得到更好的排名!</p>
         
-        <p><span>Professional support!</span></p>
+        <p><span>专业的技术支持!</span></p>
         <img class="fade" src="images/4.jpg">
-        <p>We are providing fast response email support, you'll never need to look arround for answers!</p>
+        <p>我们提供快速响应的电子邮件支持和交流论坛!</p>
       </div>
     <div class="spacer"></div>
   </div>      

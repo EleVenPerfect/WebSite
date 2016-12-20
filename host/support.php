@@ -6,7 +6,7 @@ include('geturl.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Template designed by iFastNet (iFastNet.com) exclusively for MyOwnFreeHost.com users -->
 <head>
-<title>Support - ATIME.SITE</title>
+<title>服务支持 - ATIME云主机</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@ include('geturl.php');
 <div class="main">
   <div class="blok_header">
     <div class="header">
-      <div class="logo"><a href="index.php"><?echo $yourdomain;?></a></div>
+      <div class="logo"><a href="index.php"><?echo $webname;?></a></div>
       <? include ('navigation.php'); ?>
       <div class="spacer"></div>
     </div>
@@ -25,7 +25,7 @@ include('geturl.php');
   <div class="header_text_bg2">
     <div class="header_text2">
     <img src="images/support.png" alt="Free hosting" />
-    <h2>Support</h2>
+    <h2>服务支持</h2>
       <div class="spacer"></div>
     </div>
     <div class="menu_resize">
@@ -36,25 +36,25 @@ include('geturl.php');
   <div class="body_resize">
     <div class="body">
       <div class="port">
-        <h3>Tickets</h3>
+        <h3>工单</h3>
         <img class="fade" src="images/sp1.png" alt="img" />
-        <p>You can submit a support ticket from VistaPanel, we will answer it within the next 24 to 48 hours.</p>
+        <p>你可以在cPanel内提交工单，我们将在未来24到48个小时内回复。</p>
       </div>
       <div class="port">
-        <h3>Emails</h3>
+        <h3>电子邮件</h3>
         <img class="fade" src="images/sp2.png" alt="img" />
-        <p>You can email us, but we use only the following email for technical support: <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=<? echo $supportmail;?>"><? echo $supportmail;?></a></p>
+        <p>工单太慢？直接发电子邮件到管理员吧: <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=<? echo $supportmail;?>"><? echo $supportmail;?></a>点击链接快速给管理员发送电子邮件，管理员收到后尽快解决。</p>
       </div>
       <div class="port">
         <a target="_blank" href="<? echo $supporturl;?>">
-        <h3>Community Forums</h3>
+        <h3>支持服务社区</h3>
         <img class="fade" src="images/sp3.png" alt="img" />
-        <p>You can also join our community forums if you want to interact with other users and get instant answers.</p>
+        <p>空间不够用？到社区联系管理员，说出你的要求，我们将尽力满足。</p>
         </a>
       </div>
 	<div class="spacer"></div>
 	<div class="hr"></div>
-	<h3>Frequently asked questions</h3>
+	<h3>常见问题</h3>
 	<section class="questions">
     	<div>
         	<input id="ac-1" name="faq" type="checkbox" />
@@ -127,7 +127,7 @@ include('geturl.php');
         	</article>
     	</div>      
 	</section>
-     <p>For more information & tutorials, please visit our <a href="http://tutorials.securesignup.net/">knowledge base</a>.</p>
+     <p>更多问题可以查看如下链接 <a href="http://tutorials.securesignup.net/">knowledge base</a>.</p>
     <div class="spacer"></div>
   </div>      
 </div>

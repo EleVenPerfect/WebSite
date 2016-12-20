@@ -1,16 +1,16 @@
   <div class="foot">
   <div class="foot_resize">
-    <h2>Whys us?</h2>
-    <p>We use a powerful cluster of web servers that are all interconnected to act as one giant super computer. This technology is years ahead of most other hosting companies. Combining the power of many servers creates lightning fast website speed. Not only is the service extremely fast, it is resistant to failures that effect 'single server' hosting, used by most other free and paid hosting providers. If one of our clustered servers were to fail or have a problem, your website will continue to run normally using the working servers!</p>
+    <h2>选择我们?</h2>
+    <p>我们拥有一个功能强大的Web服务器集群，它们相互关联，充当一台巨型超级计算机。这项技术被大多数托管公司采用。结合大量服务器的力量创建网站速度快如闪电。不仅是服务非常快，它还可以防止'单一服务器'托管中服务器出错导致网站停止服务。如果我们的群集服务器有一个服务器出问题，您的网站仍将继续正常运行！</p>
     </div>
   </div>
   <div class="footer">
     <div class="footer_resize">
       <ul>
-        <li><a href="<? echo $supporturl;?>">Terms of service</a></li>
-        <li><a href="privacypolicy.php">Privacy Policy</a></li>
-        <li><a href="whyus.php">Why Us</a></li>
-        <li><a href="support.php">Support</a></li>
+        <li><a href="<? echo $supporturl;?>">服务论坛</a></li>
+        <li><a href="privacypolicy.php">隐私政策</a></li>
+        <li><a href="whyus.php">关于我们</a></li>
+        <li><a href="support.php">服务</a></li>
         <li></li>
       </ul>
         <div class="social-popout"><a href="#" ><img src="images/rss.png" /></a></div>  

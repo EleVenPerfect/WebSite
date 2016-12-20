@@ -15,7 +15,7 @@ include('geturl.php');
 <div class="main">
   <div class="blok_header">
     <div class="header">
-      <div class="logo"><a href="index.php"><?echo $yourdomain;?></a></div>
+      <div class="logo"><a href="index.php"><?echo $webname;?></a></div>
       <? include ('navigation.php'); ?>
       <div class="spacer"></div>
     </div>
