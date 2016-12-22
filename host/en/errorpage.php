@@ -12,6 +12,7 @@ include('geturl.php');
 body{text-align:center}
 h1{font-family:"微软雅黑"}
 </style>
+<?include('baidutongji.php');?>
 </head>
 
 <body>
