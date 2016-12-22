@@ -32,3 +32,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 		<!-- Custom css --> 
 		<link href="<?php echo base_url()?>bootstrap/css/custom.css" rel="stylesheet">
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?0238f19eb69786f74cb007b4c1898f4a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>

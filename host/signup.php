@@ -40,7 +40,8 @@ include('geturl.php');
   <div class="body_resize">
     <div class="body">
 	<h2>请填写如下信息</h2>
-  <h3>或者通过电子邮件联系我:<? echo $supportmail;?>,<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=<? echo $supportmail;?>">点这里!</a></h3>
+  <h3>提交注册后大约需要20-50秒时间系统自动分配账户，请耐心等待不要关闭页面。</br>
+  注册完成后系统将会向电子邮箱发送激活链接，注意查收哦</h3>
 			<div class="body-left">
 		<form class="signup" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
 			<table>
@@ -62,7 +63,7 @@ include('geturl.php');
 	</div>
       <div class="body-right">
         <h2>注意</h2>
-        <p>为反之空间资源滥用，注册账户默认提供100M空间，如果后期空间不够用，可以联系管理员免费增大空间。</p>
+        <p>为防止空间资源滥用，注册账户默认提供100M空间，如果后期空间不够用，可以联系管理员免费增大空间。</p>
         <p>如果没有收到我们的电子邮件，请查看是否被邮箱拦截</p>
 		<h2>绑定自己的域名</h2>
         <p>如果你想绑定自己的域名到网站空间 (free or premium), 需要将你的域名DNS服务器设置为如下:<br /><span>ns1.<?echo $yourdomain;?></span><br /><span>ns2.<?echo $yourdomain;?></span></p>

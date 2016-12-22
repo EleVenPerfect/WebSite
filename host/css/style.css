@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 .body h3 { color:#4b4b4b; font:bold 18px 'Open Sans',sans-serif; margin:5px 0; padding:10px 5px;}
 .body img { float:left; padding:0; margin:2px 2px;}
 .body p { font:normal 11px Arial, Helvetica, sans-serif; color:#4b4b4b; line-height:1.8em; padding:5px; margin:0;}
-.body p.data { background:url(../images/data_bg.gif) top repeat-x; width:100px; padding:3px 5px; margin:5px; font:bold 11px Arial, Helvetica, sans-serif; color:#bed431;}
+.body p.data { background:url(../images/data_bg.gif) top repeat-x; width:100px; padding:3px 5px; margin:5px; font:bold 11px Arial, Helvetica, sans-serif; color:#f70000;}
 .body p span { color:#bed431;}
 .body a { text-decoration:underline; color:#bed431; line-height:1.8em; text-decoration: none;}
 .body_small { width:370px; float:left; margin-left: 50px; padding:20px 15px;}

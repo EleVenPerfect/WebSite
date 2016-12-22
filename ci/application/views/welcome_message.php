@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
+<?php $this->load->view('small/301') ?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">

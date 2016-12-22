@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');?>
-
+<?php $this->load->view('small/301') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -153,6 +153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<p>Copyright &copy; 2014-2016. <a href="<?php echo site_url()?>" style="text-decoration:none;color:#fff;">&nbsp;ATIME</a> All rights reserved.&nbsp;
+				<p><a target="_blank" href="http://www.miitbeian.gov.cn" style="text-decoration:none;color:#fff;">冀ICP备16029575号</a><p>
 					<?php $this->load->view('small/count') ?></p>
 				<ul class="social-icons">
 					<li><a href="<?php echo site_url()?>" class="fa fa-home"></a></li>

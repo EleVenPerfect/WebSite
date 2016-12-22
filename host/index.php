@@ -55,22 +55,22 @@ include('geturl.php');
   <div class="header_panel">
     <div class="header_panel_resize">
       <div class="bloga">
-        <h2>免费云主机</h2>
+        <h2>1.注册免费云主机</h2>
         <img class="fade" src="images/1.png" alt="Free hosting" />
-        <p>我们提供高品质的免费虚拟主机托管，并提供免费升级服务。</p>
+        <p>点击马上注册填写表格完成免费主机注册，系统将自动为你分配一个“用户名.atime.site”的域名测试访问。</p>
+        <p><a href="signup.php" class="btn-small">马上注册</a></p>
+      </div>
+      <div class="bloga">
+        <h2>2.登录邮箱</h2>
+        <img class="fade" src="images/2.png" alt="Premium Hosting" />
+        <p>通过激活链接激活您的账户，请注意保存系统分配的用户名、密码、ftp服务器地址、cpanel管理界面地址。</p>
         <p><a href="free-hosting.php" class="btn-small">了解更多</a></p>
       </div>
       <div class="bloga">
-        <h2>付费云主机</h2>
-        <img class="fade" src="images/2.png" alt="Premium Hosting" />
-        <p>提供更强大的cPanel付费主机，如有需要可联系管理员!</p>
-        <p><a href="premium-hosting.php" class="btn-small">了解更多</a></p>
-      </div>
-      <div class="bloga">
-        <h2>cPanel 管理面板</h2>
+        <h2>3.使用cPanel管理面板</h2>
         <img class="fade" src="images/3.png" alt="Why Us" />
-        <p> 提供一个强大的，易于使用的控制面板管理您的网站。</p>
-        <p><a href="whyus.php" class="btn-small">了解更多</a></p>
+        <p>通过cPanel管理面板设置你的MySql数据库名称、Mysql数据库服务器地址、绑定自定义域名。</p>
+        <p><a href="http://cpanel.atime.site" class="btn-small">点击登陆</a></p>
       </div>
     </div>
     <div class="spacer"></div>
