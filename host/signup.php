@@ -42,7 +42,8 @@ include('geturl.php');
     <div class="body">
 	<h2>请填写如下信息</h2>
   <h3>提交注册后大约需要20-50秒时间系统自动分配账户，请耐心等待不要关闭页面。</br>
-  注册完成后系统将会向电子邮箱发送激活链接，注意查收哦</h3>
+  注册完成后系统将会向电子邮箱发送激活链接，注意查收哦</br>
+  严禁一个邮箱地址申请多个账户，一经发现永久停用</h3>
 			<div class="body-left">
 		<form class="signup" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
 			<table>
