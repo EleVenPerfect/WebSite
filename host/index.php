@@ -2,6 +2,20 @@
 // This is used to constuct the cPanel login ur>ol
 include('geturl.php');
 ?>
+<?php 
+$the_host = $_SERVER['HTTP_HOST'];//取得当前域名
+$the_url = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';//判断地址后面部分
+$the_url = strtolower($the_url);//将英文字母转成小写
+if($the_url=="/index.php")//判断是不是首页
+{
+$the_url="/";//如果是首页，赋值为“/”
+}
+if($the_host !== 'www.atime.site')//如果域名不是带www的网址那么进行下面的301跳转
+{
+header('HTTP/1.1 301 Moved Permanently');//发出301头部 
+header('Location:http://www.atime.site'.$the_url);//跳转到带www的网址
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Template designed by iFastNet (iFastNet.com) exclusively for MyOwnFreeHost.com users -->
