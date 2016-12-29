@@ -46,8 +46,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
-								<?php echo $page2mid['0']['value']; ?>
-								<?php $this->load->view('small/textcloud'); ?>
+								<?php //echo $page2mid['0']['value']; ?>
+								<?php //$this->load->view('small/textcloud'); ?>
 							</div>
 						</div>
 					</div>

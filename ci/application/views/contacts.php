@@ -96,6 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 						</div>
 					</div>
 			</div><p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;
+			<div class="space"><p/>&nbsp;</div><div class="space"><p/>&nbsp;</div>
 		</div>
 
 
