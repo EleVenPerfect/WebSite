@@ -33,6 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 		<!-- section start -->
 		<!-- ================ -->
+		<!--
 		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
 			<div class="container">
 				<div class="row">
@@ -53,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 
 
 
