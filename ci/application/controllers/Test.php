@@ -5,17 +5,18 @@ class Test extends CI_Controller {
 
 	public function index()
 	{
-		// $this->load->model('home_model','home');
-		// $this->load->model('search_model','sech');
+		$this->load->model('home_model','home');
+		$this->load->model('search_model','sech');
 
-		// $data =array(
-		// 	'home' => $this->home->read_catagory(),
-		// 	'sec'  => $this->sech->read_search()
-		// );
-		// $this->output->enable_profiler(TRUE);
-		// print_r($data);die();
+		$data =array(
+			'home' => $this->home->read_catagory(),
+			'sec'  => $this->sech->read_search()
+		);
 
-		$this->load->view('test');
+
+		//$this->output->enable_profiler(TRUE);
+		
+		$this->load->view('test',$data);
 	}
 
 }

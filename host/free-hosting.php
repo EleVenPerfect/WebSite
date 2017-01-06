@@ -43,7 +43,7 @@ include('geturl.php');
 
 				<td>每月网络带宽</td>
 
-				<td align="center"><span>1 GB</span></td>
+				<td align="center"><span>10 GB</span></td>
 
 			</tr>
 
@@ -51,7 +51,7 @@ include('geturl.php');
 
 				<td>网页存储空间</td>
 
-				<td align="center"><span>100 MB</span></td>
+				<td align="center"><span>500 MB</span></td>
 
 			</tr>
 

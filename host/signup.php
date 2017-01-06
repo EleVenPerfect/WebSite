@@ -65,7 +65,7 @@ include('geturl.php');
 	</div>
       <div class="body-right">
         <h2>注意</h2>
-        <p>为防止空间资源滥用，注册账户默认提供100M空间，如果后期空间不够用，可以联系管理员免费增大空间。</p>
+        <p>为防止空间资源滥用，注册账户默认提供500M空间，如果后期空间不够用，可以联系管理员免费增大空间。</p>
         <p>如果没有收到我们的电子邮件，请查看是否被邮箱拦截</p>
 		<h2>绑定自己的域名</h2>
         <p>如果你想绑定自己的域名到网站空间 (free or premium), 需要将你的域名DNS服务器设置为如下:<br /><span>ns1.<?echo $yourdomain;?></span><br /><span>ns2.<?echo $yourdomain;?></span></p>

@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 							</div>
 						<p class="education-description">学习51单片机并完成51单片机常用操作的函数封装。</p>
 							<div class="education-school">
-								<h5>学习S3C440微处理器</h5><span></span>
+								<h5>学习S3C2440微处理器</h5><span></span>
 								<h5>2015年-至今</h5>
 							</div>
 						<p class="education-description">学习三星S3C2440嵌入式微处理器的裸机开发、Bootloader的移植开发、嵌入式Linux操作系统的移植。</p>

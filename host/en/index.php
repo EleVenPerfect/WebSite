@@ -31,7 +31,7 @@ include('geturl.php');
             Web Hosting<br /></h2>
           <p><b>Sign up and get benefit of these features & more!</b></p>
           <ul>
-            <li><b>100MB Cloud Storage & 1GB Bandwidth</b></li>
+            <li><b>500MB Cloud Storage & 10GB Bandwidth</b></li>
             <li><b>Host Up To 1 Websites Each Account</b></li>
             <li><b>1 MySQL Databases, FTP & Email accounts</b></li>
             <li><b>24/7 Monitoring & Firewall Protection</b></li>
