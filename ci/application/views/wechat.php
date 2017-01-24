@@ -92,7 +92,17 @@ $('#J_IndexSlider').slideLayer_v2({wrapEl:'.common-slide .list',slideEl:'.common
 	<tbody>
 	<tr><td>
 	<a href="#" class="top">TOP</a>
-	<div align="center">冀ICP备16029575号<br>Copyright &copy;2014-2017.ATIME All rights reserved.		
+	<div align="center">冀ICP备16029575号<?php 
+						$the_host = $_SERVER['HTTP_HOST'];//取得当前域名
+						if($the_host == 'www.atime.net.cn')
+						{
+							echo '-1';
+						}
+						if($the_host == 'www.atime.org.cn')
+						{
+							echo '-2';
+						}
+					?><br>Copyright &copy;2014-2017.ATIME All rights reserved.		
 	</div>
 	</td></tr>
 	</tbody>

@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 		<div id="banner" class="banner">
 			<div class="banner-image"></div>
-			<div class="banner-caption">
+			
 				<div class="container object-non-visible" data-animation-effect="fadeIn">
 			
 				<h1 id="clients" class="title text-center">Search</h1>
@@ -41,7 +41,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 					</div>
 					<?php endforeach ?>
 					
-			</div>
 			</div>
 		</div>
 
