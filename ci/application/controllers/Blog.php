@@ -5,6 +5,12 @@ class Blog extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('blog_new');
+	}
+
+
+	public function index_old()
+	{
 		$this->load->model('home_model','home');
 
 		$data =array(

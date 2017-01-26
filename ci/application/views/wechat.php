@@ -46,7 +46,7 @@ body.landscape .common-tab li.cur:before {left:-8px}body.landscape .common-tab l
 		<?php foreach($best_type as $v): ?>
 			<li class="one-img" style="left: 0px; "> 
 				<a href="<?php echo $v['url']; ?>">
-				<img src="<?php echo base_url().'bootstrap/wechat/photo/'.$v['pic']; ?>" width="320" height="150" border="0"> 
+				<img src="<?php echo $v['pic']; ?>" width="320" height="150" border="0"> 
 				</a>
 			</li>
 		<?php endforeach ?>
@@ -80,7 +80,7 @@ $('#J_IndexSlider').slideLayer_v2({wrapEl:'.common-slide .list',slideEl:'.common
   	<?php foreach($one_type as $v): ?>
   	<li>
 		<a href="<?php echo $v['url']; ?>">
-	      <img class="img76" src="<?php echo base_url()?>bootstrap/wechat/photo/<?php echo $v['pic']; ?>" width="76" height="76">
+	      <img class="img76" src="<?php echo $v['pic']; ?>" width="76" height="76">
 	      <strong><?php echo $v['title']; ?></strong>
 	      <div class="jiantou"></div>
 	    </a>
