@@ -1,8 +1,8 @@
-http://atime.tech/
-http://atime.tech/index.php
-http://atime.tech/Home
-http://atime.tech/Search
-http://atime.tech/Blog
-http://atime.tech/Video
-http://atime.tech/Contacts
-http://atime.tech/About
+http://www.atime.net.cn/
+http://www.atime.net.cn/index.php
+http://www.atime.net.cn/Home
+http://www.atime.net.cn/Search
+http://www.atime.net.cn/blog
+http://www.atime.net.cn/Video
+http://www.atime.net.cn/Contacts
+http://www.atime.net.cn/About

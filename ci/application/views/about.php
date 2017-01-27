@@ -170,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                     <li><a target="_blank" href="https://github.com/EleVenPerfect" class="fa fa-github"></a></li>
 					<li><a class="fa fa-weixin weixin" href="javascript:"><img src="<?php echo base_url()?>bootstrap/about/images/weixin.jpg"></a></li>
 					<li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=595309963&site=qq&menu=yes" class="fa fa-qq"></a></li>
-					<li><a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=atime2008@atime.org.cn" class="fa fa-mail-forward"></a></li>
+					<li><a href="<?php echo site_url()?>" class="fa fa-mail-forward"></a></li>
 				</ul>
 			</div>
 		</div>
