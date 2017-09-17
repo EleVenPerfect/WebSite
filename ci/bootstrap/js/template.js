@@ -10,7 +10,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('http://www.atime.tech/images/banner.jpg');
+		$(".banner-image").backstretch('http://www.atime.net.cn/images/banner.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
