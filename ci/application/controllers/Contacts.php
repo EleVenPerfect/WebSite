@@ -134,7 +134,7 @@ class Contacts extends CI_Controller {
 		$this->load->library('email');
 
 		$this->email->from('elevenperfect@126.com', 'ATIME');
-		$this->email->to('18333605384@139.com');
+		$this->email->to('jinzhuceyong@qq.com');
 
 		$this->email->subject('有新留言啦');
 
