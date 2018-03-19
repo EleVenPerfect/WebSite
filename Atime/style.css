@@ -3442,7 +3442,7 @@ img.size-smiley {
 }
 
 .atime_style_h1{
-	font-size: 60px;
+	font-size: 60px !important;
 	color: white;
 }
 
