@@ -13,9 +13,9 @@ Template Name: aboutme模版
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="front/Font-Awesome-4.7/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="front/Font-Awesome-4.7/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="front/Font-Awesome-4.7/aboutme-style.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/fonts/Font-Awesome-4.7/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/fonts/Font-Awesome-4.7/aboutme-style.css">
     
     <title>ATIME - 关于我</title>
 </head>
@@ -45,20 +45,20 @@ Template Name: aboutme模版
 
           <div class="tm-left-col">
             <div class="tm-border-box tm-gray-border-br tm-img-box-1">
-              <img src="images/tm-img-1.jpg" alt="Image 1" class="tm-img tm-img-tl">  
+              <img src="<?php bloginfo('template_url');?>/images/tm-img-1.jpg" alt="Image 1" class="tm-img tm-img-tl">  
              </div>  
              <div class="tm-border-box tm-pink-border-bl tm-img-box-2">
-              <img src="images/tm-img-3.jpg" alt="Image 3" class="tm-img tm-img-bl">  
+              <img src="<?php bloginfo('template_url');?>/images/tm-img-3.jpg" alt="Image 3" class="tm-img tm-img-bl">  
             </div> 
                
           </div>
 
           <div class="tm-right-col">
              <div class="tm-border-box tm-pink-border-tr tm-img-box-3">  
-              <img src="images/tm-img-2.jpg" alt="Image 2" class="tm-img tm-img-tr">  
+              <img src="<?php bloginfo('template_url');?>/images/tm-img-2.jpg" alt="Image 2" class="tm-img tm-img-tr">  
              </div>
             <div class="tm-border-box tm-gray-border-tl tm-img-box-4">
-              <img src="images/tm-img-4.jpg" alt="Image 4" class="tm-img tm-img-br">  
+              <img src="<?php bloginfo('template_url');?>/images/tm-img-4.jpg" alt="Image 4" class="tm-img tm-img-br">  
             </div>  
           </div>
                       
