@@ -562,5 +562,8 @@ function optionsframework_options() {
 		'id' => 'ad_link_2',
 		'std' => '',
 		'type' => 'text');
+	$options[] = array(
+		'name' => '关于页面',
+		'type' => 'heading');
 	return $options;
 }
