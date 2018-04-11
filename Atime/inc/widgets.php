@@ -105,6 +105,7 @@ class kratos_widget_about extends WP_Widget {
         $profile = $instance['profile'] ? $instance['profile'] : '';
         $imgurl = $instance['imgurl'] ? $instance['imgurl'] : '';
         $bkimgurl = $instance['bkimgurl'] ? $instance['bkimgurl'] : '';
+        $bkimgurlgoto = $instance['bkimgurlgoto'] ? $instance['bkimgurlgoto'] : '';
         echo $before_widget;
         ?>
                 <?php if(!empty($bkimgurl)) {?>
@@ -117,13 +118,13 @@ class kratos_widget_about extends WP_Widget {
                 <?php if(!empty($imgurl)) {?>
                 <div class="photo-wrapper clearfix">
                     <div class="photo-wrapper-tip text-center">
-                        <a href="<?php echo get_option('home'); ?>/wp-login.php"><img class="about-photo" src="<?php echo $imgurl; ?>" /></a>
+                        <a href="<?php echo $bkimgurlgoto; ?>"><img class="about-photo" src="<?php echo $imgurl; ?>" /></a>
                     </div>
                 </div>
                 <?php }else{?>
                 <div class="photo-wrapper clearfix">
                     <div class="photo-wrapper-tip text-center">
-                        <a href="<?php echo get_option('home'); ?>/wp-login.php"><img class="about-photo" src="<?php echo bloginfo('template_url'); ?>/images/avatar.png" /></a>
+                        <a href="<?php echo $bkimgurlgoto; ?>"><img class="about-photo" src="<?php echo bloginfo('template_url'); ?>/images/avatar.png" /></a>
                     </div>
                 </div>
                 <?php }?>
@@ -143,6 +144,7 @@ class kratos_widget_about extends WP_Widget {
     function form( $instance ) {
         @$imgurl = esc_attr( $instance['imgurl'] );
         @$bkimgurl = esc_attr( $instance['bkimgurl'] );
+        @$bkimgurlgoto = esc_attr( $instance['bkimgurlgoto'] );
         @$profile = esc_attr( $instance['profile'] );
         ?>
             <p>
@@ -161,6 +163,12 @@ class kratos_widget_about extends WP_Widget {
                 <label for="<?php echo $this->get_field_id( 'bkimgurl' ); ?>">
                     卡片背景：
                     <input class="widefat" id="<?php echo $this->get_field_id( 'bkimgurl' ); ?>" name="<?php echo $this->get_field_name( 'bkimgurl' ); ?>" type="text" value="<?php echo $bkimgurl; ?>" />
+                </label>
+            </p>
+            <p>
+                <label for="<?php echo $this->get_field_id( 'bkimgurlgoto' ); ?>">
+                    跳转地址：
+                    <input class="widefat" id="<?php echo $this->get_field_id( 'bkimgurlgoto' ); ?>" name="<?php echo $this->get_field_name( 'bkimgurlgoto' ); ?>" type="text" value="<?php echo $bkimgurlgoto; ?>" />
                 </label>
             </p>
         <?php

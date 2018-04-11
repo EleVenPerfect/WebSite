@@ -15,6 +15,7 @@ Template Name: aboutme模版
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/fonts/Font-Awesome-4.7/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/style.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/fonts/Font-Awesome-4.7/aboutme-style.css">
     
     <title>ATIME - 关于我</title>
@@ -31,34 +32,34 @@ Template Name: aboutme模版
            </div>
            <div class="col-lg-6 col-md-6 content-item content-item-1 background tm-white-translucent-bg">
                <h2 class="main-title text-center dark-blue-text">.01 Welcome</h2>
-               <p>我是ATIME，电子信息专业学生，在天津工业大学读研究生，个人站点用于分享自己的学习经历，谢谢关注。</p>
+               <p><?php echo kratos_option('about_me_welcome'); ?></p>
            </div>
        </section>
 
        <section class="col-md-12 content padding tm-equal-col-container" id="services">
         <div class="col-lg-6 col-md-6 col-sm-12 content-item tm-black-translucent-bg tm-services-section-padding">
           <h2 class="main-title text-center dark-blue-text">.02 Experience</h2>
-           <p>本科就读于北华航天工业学院，主要学习单片机、嵌入式方向。在校期间接触学习51单片机、AVR单片机、MSP430单片机、STM32单片机、S3C2440嵌入式处理器等。</p>
-           <p>本科毕业设计完成一个基于FPGA的数据采集器，通过FPGA快速读取ADC转换结果传输显示到PC端。</p>
+           <p><?php echo kratos_option('about_me_experience1'); ?></p>
+           <p><?php echo kratos_option('about_me_experience2'); ?></p>
        </div>
        <div class="col-lg-6 col-md-6 col-sm-12 tm-white-translucent-bg tm-services-section-padding tm-box-center">
 
           <div class="tm-left-col">
             <div class="tm-border-box tm-gray-border-br tm-img-box-1">
-              <img src="<?php bloginfo('template_url');?>/images/tm-img-1.jpg" alt="Image 1" class="tm-img tm-img-tl">  
+              <img src="<?php echo kratos_option('about_me_experience_pic1'); ?>" alt="Image 1" class="tm-img tm-img-tl">  
              </div>  
              <div class="tm-border-box tm-pink-border-bl tm-img-box-2">
-              <img src="<?php bloginfo('template_url');?>/images/tm-img-3.jpg" alt="Image 3" class="tm-img tm-img-bl">  
+              <img src="<?php echo kratos_option('about_me_experience_pic3'); ?>" alt="Image 3" class="tm-img tm-img-bl">  
             </div> 
                
           </div>
 
           <div class="tm-right-col">
              <div class="tm-border-box tm-pink-border-tr tm-img-box-3">  
-              <img src="<?php bloginfo('template_url');?>/images/tm-img-2.jpg" alt="Image 2" class="tm-img tm-img-tr">  
+              <img src="<?php echo kratos_option('about_me_experience_pic2'); ?>" alt="Image 2" class="tm-img tm-img-tr">  
              </div>
             <div class="tm-border-box tm-gray-border-tl tm-img-box-4">
-              <img src="<?php bloginfo('template_url');?>/images/tm-img-4.jpg" alt="Image 4" class="tm-img tm-img-br">  
+              <img src="<?php echo kratos_option('about_me_experience_pic4'); ?>" alt="Image 4" class="tm-img tm-img-br">  
             </div>  
           </div>
                       
@@ -79,15 +80,15 @@ Template Name: aboutme模版
         <div class="col-lg-12">
           <div class="col-md-4 col-lg-4">
             <i class="fa fa-commenting-o fa-4x tm-fa-icon"></i>
-            <p>ATIME_51MCU:是适用于51单片机的基础函数库，本函数库提供对51单片机外设的封装函数，使得功能实现简洁高效。</p>
+            <p><?php echo kratos_option('about_me_code1'); ?></p>
           </div>
           <div class="col-md-4 col-lg-4">
             <i class="fa fa-code fa-4x tm-fa-icon"></i>
-            <p>ATIME_MSP430:该函数库将MSP430的外设封装成标准函数，大部分模块采用“器件名_init”函数初始化，以“器件名_read/_write”函数操作，函数命名规则统一，使用方便。 </p>
+            <p><?php echo kratos_option('about_me_code2'); ?></p>
           </div>
           <div class="col-md-4 col-lg-4">
             <i class="fa fa-inbox fa-4x tm-fa-icon"></i>
-            <p>S3C2440:是我在学习嵌入式过程中编写的一部分代码仓库，学习路线从裸机程序到bootloader，目前还在学习中。</p>
+            <p><?php echo kratos_option('about_me_code3'); ?></p>
           </div>
         </div>
       </div>
@@ -97,14 +98,19 @@ Template Name: aboutme模版
    <section class="col-md-12 content" id="contact">
        <div class="col-lg-6 col-md-6 content-item tm-content-box tm-black-translucent-bg">
            <h2 class="contact-title">.04 Contact Info</h2>
-           <p>喜欢我的文章可以关注我的微信公众号，或者发电邮联系我~</p>
+           <p><?php echo kratos_option('about_me_contact'); ?></p>
            <p>
-			 Email: atime@atime.net.cn<br>
-             微信公众号：ATIME的嵌入式学习笔记
+			       Email: <?php echo kratos_option('about_me_email'); ?><br>
+             微信公众号：<?php echo kratos_option('about_me_wechat'); ?>
            </p>
+		   <button type="button" class="btn btn-big pull-left tm-btn-primary" onclick="window.location.href='<?php echo home_url();?>'">返回首页</button>
        </div>
+
        <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
-           
+       <?php if ( comments_open() ) comments_template(); ?>
+       </div>
+       <!---
+       <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
            <form action="#" method="post" name="contact-form" class="contact-form">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="form-group">
@@ -123,15 +129,13 @@ Template Name: aboutme模版
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="form-group margin-b-0">
-                    <button type="submit" id="form-submit" class="btn pull-right btn-contact tm-btn-primary">Submit</button>
+                    <button type="submit" id="form-submit" class="btn pull-right btn-contact tm-btn-primary">提交</button>
                 </div>    
             </div>
         </form>
-        <!--</div> -->
-        <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
-
+        <div id="msgSubmit" class="h3 text-center hidden">提交成功!</div>
     </div>
-
+    -->
 </section>
 
 </div>
