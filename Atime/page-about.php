@@ -107,7 +107,7 @@ Template Name: aboutme模版
        </div>
 
        <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
-       <?php if ( comments_open() ) comments_template(); ?>
+       <?php if ( comments_open() ) comments_template('/comments-ly.php'); ?>
        </div>
        <!---
        <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
