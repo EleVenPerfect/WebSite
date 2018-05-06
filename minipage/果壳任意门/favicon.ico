@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>任意门 - 发现你最爱的网站</title>
+<link rel="stylesheet" type="text/css" href="static/css/index.css"
+	media="all">
+<link rel="stylesheet" type="text/css" href="static/css/extra.css"
+	media="all">
+</head>
+<body>
+	<div class="container">
+		<div class="top-wp">
+			<div class="top">
+				<a class="top-link" target="_top" href="https://www.guokr.com/"
+					title="果壳网">果壳网</a>
+				<h1 class="element-invisible">任意门</h1>
+				<p class="element-invisible">发现你的兴趣</p>
+				<div id="addFavorite">
+					<a class="top-keep" href="javascript:void%200;"
+						data-operation="addFavorite"></a>
+				</div>
+				<div class="top-share" id="share">
+					<a data-type="sinaminiblog" class="top-share-xl" href="#"
+						title="分享到新浪微博">新浪微博</a> <a data-type="douban"
+						class="top-share-db" href="#" title="分享到豆瓣">豆瓣</a> <a
+						data-type="qzone" class="top-share-qq" href="#" title="分享到QQ空间">QQ空间</a>
+				</div>
+				<p class="element-invisible">开启一次未知之旅，发现你最爱的网站</p>
+				<div class="top-doors-wp" id="doors">
+					<a id="doorsKey" href="javascript:void%200;" class="top-doors-key"
+						data-operation="openDoor">+</a>
+					<ul style="display: none;" class="top-doors">
+						
+					</ul>
+					<div style="top: 0px;" class="top-doors-tip" id="doorTip">点击“+”你会跳转到一个随机的网站</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="board fix">
+				<div class="board-recommend" id="recommendBoard">
+					<ul>
+						<li><img src="static/images/hf9zcy.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://songshuhui.net/">科学松鼠会</a></li>
+						<li><img src="static/images/ixeprw.png" alt="" height="16"
+							width="16"> <a target="_top"
+							href="http://www.sciencenet.cn/">科学网</a></li>
+						<li><img src="static/images/cum5vf.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.dxy.cn/">丁香园</a></li>
+						<li><img src="static/images/2owvmt.png" alt="" height="16"
+							width="16"> <a target="_top"
+							href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed</a></li>
+						<li><img src="static/images/rr500c.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.quwan.com/">趣玩网</a></li>
+						<li><img src="static/images/ym6hne.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.qyer.com/">穷游网</a></li>
+						<li><img src="static/images/izcvjx.png" alt="" height="16"
+							width="16"> <a target="_top"
+							href="http://www.qiushibaike.com/">糗事百科</a></li>
+						<li><img src="static/images/fmjjz1.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.36kr.com/">36氪</a></li>
+						<li><img src="static/images/r51k1o.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://solidot.org/">奇客</a></li>
+						<li><img src="static/images/pdbi4f.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://cn.engadget.com/">瘾科技</a></li>
+						<li><img src="static/images/iajnml.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.appinn.com/">小众软件</a></li>
+						<li><img src="static/images/cqeln9.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://open.163.com/">网易公开课</a></li>
+						<li><img src="static/images/u2ntsy.png" alt="" height="16"
+							width="16"> <a target="_top"
+							href="http://www.googleartproject.com/">谷歌美术馆</a></li>
+						<li><img src="static/images/g7tn4s.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.csdn.net/">CSDN</a></li>
+						<li><img src="static/images/i3hrqs.png" alt="" height="16"
+							width="16"> <a target="_top" href="https://www.zhihu.com/">知乎</a></li>
+						<li><img src="static/images/wynk5f.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.yeeyan.org/">译言网</a></li>
+						<li><img src="static/images/g7ss01.png" alt="" height="16"
+							width="16"> <a target="_top"
+							href="http://www.xiachufang.com/">下厨房</a></li>
+						<li><img src="static/images/xopkil.png" alt="" height="16"
+							width="16"> <a target="_top" href="http://www.vmovier.com/">V电影</a></li>
+						<li><img
+							src="static/images/fv5mzs5k-_-o2g6dlqxboallp4kjcxi7nefkeyqsveqqaaaaeaaaafbo.png"
+							alt="" height="16" width="16"> <a target="_top"
+							href="http://iliangcang.com/">良仓</a></li>
+					</ul>
+				</div>
+				<div class="board-search-b">
+					<div class="board-search">
+						<form action="https://www.wolframalpha.com/input/" type="get"
+							target="_blank">
+							<label for="searchWolf" class="board-search-wolf">WolframAlpha</label>
+							<input value="" id="searchWolf" class="board-search-txt" name="i"
+								type="text"> <input value="提交" class="board-search-bt"
+								type="submit">
+						</form>
+						<form action="https://zh.wikipedia.org/w/index.php" type="get"
+							target="_blank">
+							<label for="searchWiki" class="board-search-wiki">Wikipedia</label>
+							<input value="" id="searchWiki" class="board-search-txt"
+								name="search" type="text"> <input value="提交"
+								class="board-search-bt" type="submit">
+						</form>
+						<form action="https://zh.numberempire.com/primenumbers.php"
+							type="post" target="_blank" class="board-search-last">
+							<label for="searchPai" class="board-search-pai">素数发生器</label> <input
+								value="" id="searchPai" class="board-search-txt" name="number"
+								type="text"> <input value="提交" class="board-search-bt"
+								type="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div class="logos">
+				<a target="_top" href="http://www.guokr.com/" class="logos-guokr"
+					id="guokrLogo">果壳网</a>
+			</div>
+			<div class="bottom" id="bottom">
+				<p>©2018 Anywhere.cool. Based on gate.guokr.com</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		var ukey = '', g_page_name = 'anywhereIndexPage', GJS_VERSION = 'v2', GJS_PRELOAD = [
+				'jQuery', 'ga', 'GUtils' ];
+	</script>
+	<script src="static/js/i.js"></script>
+	<script src="static/js/common.js"></script>
+	<script src="static/js/anywhere.js"></script>
+</body>
+
+</html>

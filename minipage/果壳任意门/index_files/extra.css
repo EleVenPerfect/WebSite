@@ -1,0 +1,165 @@
+.gui-block-close {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    line-height: 16px;
+    text-indent: 0px;
+    overflow: hidden;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: -5px;
+    display: inline-block;
+    position: relative;
+    _zoom: 1;
+    _vertical-align: 2px;
+}
+
+.gui-block-close::before {
+    left: 49%;
+    top: 50%;
+    width: 3px;
+    height: 10px;
+    margin-top: -5px;
+    margin-left: -2px;
+    display: none;
+    position: absolute;
+    content: "";
+    background-color: rgb(153, 153, 153);
+}
+
+.gui-block-close::after {
+    left: 49%;
+    top: 50%;
+    width: 3px;
+    height: 10px;
+    margin-top: -5px;
+    margin-left: -2px;
+    display: none;
+    position: absolute;
+    content: "";
+    background-color: rgb(153, 153, 153);
+}
+
+.gui-block-close::before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.gui-block-close::after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.tooltip {
+    padding: 7px;
+    border-radius: 1px;
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05), -2px -2px 1px rgba(0, 0, 0, 0.05), 2px -2px 1px rgba(0, 0, 0, 0.05), -2px 2px 1px rgba(0, 0, 0, 0.05);
+    background-color: rgb(255, 255, 255);
+}
+
+.tooltip p {
+    width: 160px;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.tooltip .tooltip-favorate-desc {
+    width: 163px;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    -ms-word-wrap: break-word;
+}
+
+.tooltip .tooltip-favorate-desc span {
+    color: rgb(102, 102, 102);
+}
+
+.tooltip .tooltip-favorate-desc .high_light {
+    font-family: Microsoft YaHei;
+}
+
+b.tooltip-up {
+    border-bottom-color: rgb(178, 177, 150) !important;
+}
+
+b.tooltip-down {
+    border-top-color: rgb(178, 177, 150) !important;
+}
+
+b.tooltip-left {
+    border-right-color: rgb(178, 177, 150) !important;
+}
+
+b.tooltip-right {
+    border-left-color: rgb(178, 177, 150) !important;
+}
+
+s.tooltip-up {
+    border-bottom-color: rgb(255, 255, 255) !important;
+}
+
+s.tooltip-down {
+    border-top-color: rgb(255, 255, 255) !important;
+}
+
+s.tooltip-left {
+    border-right-color: rgb(255, 255, 255) !important;
+}
+
+s.tooltip-right {
+    border-left-color: rgb(255, 255, 255) !important;
+}
+.category .more {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.category .more .more-title {
+    background: rgb(249, 249, 249);
+    border-width: 1px 1px 0px;
+    border-style: solid solid none;
+    border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor;
+    border-radius: 3px 3px 0px 0px;
+    width: 490px;
+    height: 28px;
+    color: rgb(101, 101, 101);
+    line-height: 28px;
+    text-indent: 10px;
+    font-weight: bold;
+    box-shadow: 2px 0px 1px #eee;
+}
+
+.category .more .more-title a {
+    margin: 6px;
+    float: right;
+}
+
+.more .more-title:hover .gui-block-close::before {
+    background-color: rgb(138, 199, 62);
+}
+
+.more .more-title:hover .gui-block-close::after {
+    background-color: rgb(138, 199, 62);
+}
+
+.category .sites {
+    border-radius: 0px 0px 3px 3px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 480px;
+    height: auto;
+    padding-left: 10px;
+    box-shadow: 2px 2px 1px #eee;
+    background-color: rgb(255, 255, 255);
+}
+
+.category .sites li {
+    margin: 3px 2px;
+}
