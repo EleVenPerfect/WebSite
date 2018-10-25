@@ -10,7 +10,7 @@ include('geturl.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Template designed by iFastNet (iFastNet.com) exclusively for MyOwnFreeHost.com users -->
 <head>
-<title>快速注册 - ATIME云主机</title>
+<title>快速注册 - <?php echo $webname ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600" rel="stylesheet" type="text/css">

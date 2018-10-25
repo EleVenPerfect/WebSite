@@ -2,11 +2,25 @@
 // This is used to constuct the cPanel login ur>ol
 include('geturl.php');
 ?>
+<?php 
+$the_host = $_SERVER['HTTP_HOST'];//取得当前域名
+$the_url = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';//判断地址后面部分
+$the_url = strtolower($the_url);//将英文字母转成小写
+if($the_url=="/index.php")//判断是不是首页
+{
+$the_url="/";//如果是首页，赋值为“/”
+}
+if(strtolower($the_host) !== strtolower($yourfulldomain))//如果域名不是带www的网址那么进行下面的301跳转
+{
+header('HTTP/1.1 301 Moved Permanently');//发出301头部 
+header('Location:http://'.$yourfulldomain.$the_url);//跳转到带www的网址
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Template designed by iFastNet (iFastNet.com) exclusively for MyOwnFreeHost.com users -->
 <head>
-<title>Atime Site Hosting</title>
+<title><?php echo $webname ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600" rel="stylesheet" type="text/css">
@@ -16,7 +30,7 @@ include('geturl.php');
 <div class="main">
   <div class="blok_header">
     <div class="header">
-      <div class="logo"><a href="index.php"><?echo $yourdomain;?></a></div>
+      <div class="logo"><a href="index.php"><?echo $webname;?></a></div>
         <? include ('navigation.php'); ?>
       <div class="spacer"></div>
     </div>
@@ -78,7 +92,7 @@ include('geturl.php');
   </div>
   <div class="body_resize">
     <div class="body">
-  <h2>Welcome to Hosting</h2>
+  <h2>Welcome to <?php echo $webname ?></h2>
   	<p>We are specialists in hosting services using clustered technology powered by one of the largest hosting organizations on the internet. Sign up here for fast PHP & MySQL hosting . A powerful, easy-to-use control panel provided to manage your website, packed with hundreds of great features including website building tools, Email, FTP add-on domain <br>Our hosting platform is the only one in the world to automatically enable SSL HTTPS protection on every domain name.  This means all websites on our servers have https protection for added security and better Search Engine rankings!</p>
   <hr />
   </div>      

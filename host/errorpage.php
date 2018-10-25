@@ -6,7 +6,7 @@ include('geturl.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>404Page - ATIME云主机</title>
+<title>404Page - <?php echo $webname ?></title>
 <script type="text/javascript">setTimeout(function(){top.location='http://<?echo $yourdomain;?>';},6000)</script>
 <style type="text/css">
 body{text-align:center}

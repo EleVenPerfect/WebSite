@@ -6,7 +6,7 @@ include('geturl.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Template designed by iFastNet (iFastNet.com) exclusively for MyOwnFreeHost.com users -->
 <head>
-<title>Support - ATIME.SITE</title>
+<title>Support - <?php echo $webname ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@ include('geturl.php');
 <div class="main">
   <div class="blok_header">
     <div class="header">
-      <div class="logo"><a href="index.php"><?echo $yourdomain;?></a></div>
+      <div class="logo"><a href="index.php"><?echo $webname;?></a></div>
       <? include ('navigation.php'); ?>
       <div class="spacer"></div>
     </div>
