@@ -1,2 +1,1 @@
-<option value="free host with ad">免费500M空间账户</option>
-<option value="custom package contact me with email above">如需要更多请联系管理员</option>
+<option value="free host with 600m disk space 15g traffic 1 domain for 0 dollars first year">免费600M空间账户</option>

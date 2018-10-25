@@ -4,7 +4,7 @@
     $yourdomain = ucfirst($yourdomain);
 	$yourfulldomain = 'www.'.$yourdomain;
     $supportmail = 'atimelph@foxmial.com';
-    $supporturl  = 'http://askme.atime.site';
+    $supporturl  = 'http://'.$yourfulldomain.'/supports';
     $webname     = 'ZV68 Host';
 ?>
 

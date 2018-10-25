@@ -2,4 +2,5 @@
 User-agent: *
 Disallow: 
 Disallow: /download/
-Sitemap: http://www.atime.site/sitemap.xml
+Disallow: /supports/admin/
+Sitemap: http://www.zv68.com/sitemap.xml

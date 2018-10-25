@@ -1,6 +1,6 @@
 <?PHP
 // This is used to geneate a unique number for catchpa 
-$id = md5(rand(6000,99999999999999991000));
+$id = md5(rand(6000,PHP_INT_MAX));
 ?>
 <?
 // This is used to constuct the cPanel login ur>ol

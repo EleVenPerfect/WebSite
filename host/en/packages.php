@@ -1,2 +1,1 @@
-<option value="free host with ad">free host with 100M disk space</option>
-<option value="custom package contact me with email above">custom package contact me with email above</option>
+<option value="free host with 600m disk space 15g traffic 1 domain for 0 dollars first year">免费600M空间账户</option>

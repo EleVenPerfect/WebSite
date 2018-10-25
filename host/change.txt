@@ -1,9 +1,9 @@
-需要修改根目录和en目录的
+﻿需要修改根目录和en目录的
 
 1.geturl
 2.baidutongji
 3.cnzz
 4.navigation
-5.paackages
+5.packages
 6.sitemap
 7.robots.txt
