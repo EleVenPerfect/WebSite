@@ -1,0 +1,18 @@
+<?php
+$sky_saying_contents = kv_get('sky_saying_data');
+$sky_rand_content = null;
+if($sky_saying_contents && $sky_saying_contents['sky_saying_content']) {
+    $sky_rand_key = array_rand($sky_saying_contents['sky_saying_content']);
+    $sky_rand_content = $sky_saying_contents['sky_saying_content'][$sky_rand_key];
+}
+if($sky_rand_content) {
+?>
+<div class="card">
+    <div class="card-header">
+        经典名句
+    </div>
+    <div class="card-footer">
+        <?php echo html_entity_decode($sky_rand_content);?>
+    </div>
+</div>
+<?php }?>

@@ -1,0 +1,11 @@
+{
+    "name": "导航栏自定义链接",
+    "brief": "给导航栏加上自己需要的链接",
+    "version": "1.0",
+    "bbs_version": "4.0",
+    "installed": 1,
+    "enable": 1,
+    "hooks_rank": [],
+    "overwrites_rank": [],
+    "dependencies": []
+}

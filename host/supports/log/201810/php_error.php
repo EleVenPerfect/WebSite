@@ -1,0 +1,3 @@
+<?php exit;?>	2018-10-25 14:04:21	172.68.46.116	/supports/install/action=db	0	Error[8192]: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead, File: /home/vol14_6/zv68.com/www/htdocs/supports/xiunophp/db_mysql.class.php, Line: 53
+<?php exit;?>	2018-10-25 14:04:21	172.68.46.116	/supports/install/action=db	0	Error[2]: mysql_connect(): Connection refused, File: /home/vol14_6/zv68.com/www/htdocs/supports/xiunophp/db_mysql.class.php, Line: 53
+<?php exit;?>	2018-10-25 14:04:21	172.68.46.116	/supports/install/action=db	0	Error[1024]: Database Error:连接数据库服务器失败:Connection refused, File: /home/vol14_6/zv68.com/www/htdocs/supports/xiunophp/db_mysql.class.php, Line: 195

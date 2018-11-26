@@ -1,0 +1,10 @@
+ErrorDocument 400 http://www.sinsy.com.cn/errorpage.php
+ErrorDocument 401 http://www.sinsy.com.cn/errorpage.php
+ErrorDocument 403 http://www.sinsy.com.cn/errorpage.php
+ErrorDocument 404 http://www.sinsy.com.cn/errorpage.php
+ErrorDocument 503 http://www.sinsy.com.cn/errorpage.php
+php_value display_errors Off
+php_flag magic_quotes 1
+php_flag magic_quotes_gpc 1
+php_value mbstring.http_input auto
+php_value date.timezone Asia/Shanghai

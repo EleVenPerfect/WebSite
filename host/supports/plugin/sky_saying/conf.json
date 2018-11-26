@@ -1,0 +1,10 @@
+{
+    "name": "名言名句",
+    "brief": "名言名句，支持自定义内容<br />增加支持html标签",
+    "version": "1.1",
+    "bbs_version": "4.0.3",
+    "installed": 1,
+    "enable": 1,
+    "hooks_rank": [],
+    "dependencies": []
+}
