@@ -59,7 +59,7 @@ include('geturl.php');
 				<input type="hidden" name="id" value="<?PHP echo $id; ?>">
 				<tr><th>验证码<td><div class="captcha"><img width=200px; height=90px; src="http://order.<? echo "$yourdomain" ;?>/image.php?id=<?PHP echo $id; ?>"></div><td>
 				<tr><th>请输入验证码<td><input class="signupipt" type=text name=number size=30><td>
-				<tr><th colspan=2><input type=submit class="signupbtn" value="Register" name=submit><td>
+				<tr><th colspan=2><input type=submit class="signupbtn" value="注册" name=submit><td>
 			</table>
 		</form>
 	</div>
