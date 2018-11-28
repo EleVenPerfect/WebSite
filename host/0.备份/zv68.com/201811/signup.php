@@ -45,7 +45,7 @@ include('geturl.php');
   注册完成后系统将会向电子邮箱发送激活链接，注意查收哦</br>
   严禁一个邮箱地址申请多个账户，一经发现永久停用</h3>
 			<div class="body-left">
-		<form class="signup" name="updatedetails" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
+		<form class="signup" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
 			<table>
 				<tr><th>用户名<td><input class="signupipt" type=text name=username size=30 value=""  maxlength="16" onkeyup="return ismaxlength(this)"><td>
 				<tr><th>密码<td><input class="signupipt" type=password name=password size=30 maxlength="8" onkeyup="return ismaxlength(this)"><td>
@@ -59,7 +59,7 @@ include('geturl.php');
 				<input type="hidden" name="id" value="<?PHP echo $id; ?>">
 				<tr><th>验证码<td><div class="captcha"><img width=200px; height=90px; src="http://order.<? echo "$yourdomain" ;?>/image.php?id=<?PHP echo $id; ?>"></div><td>
 				<tr><th>请输入验证码<td><input class="signupipt" type=text name=number size=30><td>
-				<tr><th colspan=2><input type=submit class="signupbtn" value="注册" name=submit><td>
+				<tr><th colspan=2><input type=submit class="signupbtn" value="Register" name=submit><td>
 			</table>
 		</form>
 	</div>

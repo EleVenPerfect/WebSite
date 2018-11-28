@@ -1,0 +1,6 @@
+# robots.txt generated at http://tool.chinaz.com/robots/ 
+User-agent: *
+Disallow: 
+Disallow: /download/
+Disallow: /supports/admin/
+Sitemap: http://www.zv68.com/sitemap.xml

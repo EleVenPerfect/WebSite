@@ -3,8 +3,8 @@
     $yourdomain = preg_replace('/^www\./' , '' , $yourdomain);
     $yourdomain = ucfirst($yourdomain);
 	$yourfulldomain = 'www.'.$yourdomain;
-    $supportmail = 'admin@sinsy.com.cn';
+    $supportmail = 'atimelph@foxmail.com';
     $supporturl  = 'http://'.$yourfulldomain.'/supports';
-    $webname     = '森西科技云主机';
+    $webname     = 'ZV68.com云主机';
 ?>
 
