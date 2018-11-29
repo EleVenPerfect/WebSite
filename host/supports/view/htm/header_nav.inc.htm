@@ -52,7 +52,7 @@
 					<!--{hook header_nav_user_start.htm}-->
 				<?php if(empty($uid)) { ?>
 					<li class="nav-item"><a class="nav-link" href="<?php echo url('user-login');?>"><i class="icon-user"></i> <?php echo lang('login');?></a></li>
-					<!--<li class="nav-item"><a class="nav-link" href="<?php echo url('user-create');?>"><?php echo lang('register');?></a></li>-->
+					<li class="nav-item"><a class="nav-link" href="<?php echo url('user-create');?>"><?php echo lang('register');?></a></li>
 				<?php } else { ?>
 					<li class="nav-item username"><a class="nav-link" href="<?php echo url('my');?>"><img class="avatar-1" src="<?php echo $user['avatar_url'];?>"> <?php echo $user['username'];?></a></li>
 					<!-- 管理员 -->
