@@ -41,16 +41,16 @@ include('geturl.php');
   <div class="body_resize">
     <div class="body">
 	<h2>请填写如下信息</h2>
-  <h3>提交注册后大约需要20-50秒时间系统自动分配账户，请耐心等待不要关闭页面。</br>
-  注册完成后系统将会向电子邮箱发送激活链接，注意查收哦</br>
+  <h3>提交注册后，系统会发送激活邮件。请打开激活链接等待20-50秒时间系统自动分配账户资源，请耐心等待不要关闭页面。</br>
+  注册完成后需要打开邮箱激活链接，打开连接才是正式开始分配资源。</br>
   严禁一个邮箱地址申请多个账户，一经发现永久停用</br>
   建议注册主机账户后，进入论坛注册论坛账户，方便交流讨论和问题反馈。</h3>
 			<div class="body-left">
 		<form class="signup" name="updatedetails" method=post action="http://order.<?echo $yourdomain;?>/register2.php">
 			<table>
-				<tr><th>用户名<td><input class="signupipt" type=text name=username size=30 value=""  maxlength="16" onkeyup="return ismaxlength(this)"><td>
-				<tr><th>密码<td><input class="signupipt" type=password name=password size=30 maxlength="8" onkeyup="return ismaxlength(this)"><td>
-				<tr><th>电子邮件<td><input class="signupipt" type=text name=email size=30 value=""><td>
+				<tr><th>域名前缀<td><input class="signupipt" type=text name=username size=30 value=""  maxlength="16" onkeyup="return ismaxlength(this)"><td>
+				<tr><th>登录密码<td><input class="signupipt" type=password name=password size=30 maxlength="8" onkeyup="return ismaxlength(this)"><td>
+				<tr><th>电子邮箱<td><input class="signupipt" type=text name=email size=30 value=""><td>
 				
         <tr><th style="text-align: left;">选择套餐<td>
 				<select class="signupiptsl" name='plan_name'>
